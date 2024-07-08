@@ -220,6 +220,48 @@ document.getElementById('font-size').addEventListener('input', function() {
     setFontSize(this.value);
 });
 
+function setTheme(theme) {
+    console.log('Setting theme:', theme);
+    document.body.className = '';
+    document.body.classList.add(theme + '-theme');
+    localStorage.setItem('theme', theme);
+
+    // Apply theme-specific styles
+    switch (theme) {
+        case 'default':
+            document.documentElement.style.setProperty('--main-bg-color', '#f0f0f0');
+            document.documentElement.style.setProperty('--main-text-color', '#333');
+            document.documentElement.style.setProperty('--button-bg-color', '#4CAF50');
+            document.documentElement.style.setProperty('--button-text-color', 'white');
+            break;
+        case 'dark':
+            document.documentElement.style.setProperty('--main-bg-color', '#333');
+            document.documentElement.style.setProperty('--main-text-color', '#f0f0f0');
+            document.documentElement.style.setProperty('--button-bg-color', '#6a5acd');
+            document.documentElement.style.setProperty('--button-text-color', 'white');
+            break;
+        case 'fantasy':
+            document.documentElement.style.setProperty('--main-bg-color', '#e6f3ff');
+            document.documentElement.style.setProperty('--main-text-color', '#4a4a4a');
+            document.documentElement.style.setProperty('--button-bg-color', '#ff9966');
+            document.documentElement.style.setProperty('--button-text-color', '#ffffff');
+            break;
+        case 'psychedelic':
+            document.documentElement.style.setProperty('--main-bg-color', '#ff00ff');
+            document.documentElement.style.setProperty('--main-text-color', '#00ffff');
+            document.documentElement.style.setProperty('--button-bg-color', '#ffff00');
+            document.documentElement.style.setProperty('--button-text-color', '#ff00ff');
+            break;
+        case 'retrogaming':
+            document.documentElement.style.setProperty('--main-bg-color', '#000000');
+            document.documentElement.style.setProperty('--main-text-color', '#00ff00');
+            document.documentElement.style.setProperty('--button-bg-color', '#808080');
+            document.documentElement.style.setProperty('--button-text-color', '#00ff00');
+            document.body.style.fontFamily = "'Press Start 2P', cursive";
+            break;
+    }
+}
+
 // Initial setup
 const savedTheme = localStorage.getItem('theme') || 'default';
 setTheme(savedTheme);
