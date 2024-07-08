@@ -100,9 +100,49 @@ function goBack() {
 
 function setTheme(theme) {
     console.log('Setting theme:', theme);
-    document.body.className = '';
-    document.body.classList.add(theme + '-theme');
+    document.body.className = theme + '-theme';
     localStorage.setItem('theme', theme);
+
+    // Apply theme-specific styles
+    const root = document.documentElement;
+    switch (theme) {
+        case 'default':
+            root.style.setProperty('--main-bg-color', '#f0f0f0');
+            root.style.setProperty('--main-text-color', '#333');
+            root.style.setProperty('--button-bg-color', '#4CAF50');
+            root.style.setProperty('--button-text-color', 'white');
+            root.style.setProperty('--font-family', 'Arial, sans-serif');
+            break;
+        case 'dark':
+            root.style.setProperty('--main-bg-color', '#222');
+            root.style.setProperty('--main-text-color', '#e0e0e0');
+            root.style.setProperty('--button-bg-color', '#6a5acd');
+            root.style.setProperty('--button-text-color', 'white');
+            root.style.setProperty('--font-family', "'Roboto', sans-serif");
+            break;
+        case 'fantasy':
+            root.style.setProperty('--main-bg-color', '#f3e5ab');
+            root.style.setProperty('--main-text-color', '#4a2700');
+            root.style.setProperty('--button-bg-color', '#8b4513');
+            root.style.setProperty('--button-text-color', '#f3e5ab');
+            root.style.setProperty('--font-family', "'Cinzel', serif");
+            document.body.style.backgroundImage = "url('https://example.com/parchment-texture.jpg')";
+            break;
+        case 'psychedelic':
+            root.style.setProperty('--main-bg-color', '#ff00ff');
+            root.style.setProperty('--main-text-color', '#00ffff');
+            root.style.setProperty('--button-bg-color', '#ffff00');
+            root.style.setProperty('--button-text-color', '#ff00ff');
+            root.style.setProperty('--font-family', "'Monoton', cursive");
+            break;
+        case 'retrogaming':
+            root.style.setProperty('--main-bg-color', '#000000');
+            root.style.setProperty('--main-text-color', '#00ff00');
+            root.style.setProperty('--button-bg-color', '#808080');
+            root.style.setProperty('--button-text-color', '#00ff00');
+            root.style.setProperty('--font-family', "'Press Start 2P', cursive");
+            break;
+    }
 }
 
 function showShareButtons() {
@@ -222,44 +262,56 @@ document.getElementById('font-size').addEventListener('input', function() {
 
 function setTheme(theme) {
     console.log('Setting theme:', theme);
-    document.body.className = '';
-    document.body.classList.add(theme + '-theme');
+    document.body.className = theme + '-theme';
     localStorage.setItem('theme', theme);
 
+    // Reset all custom styles
+    document.body.style = '';
+    document.documentElement.style = '';
+
     // Apply theme-specific styles
+    const root = document.documentElement;
     switch (theme) {
         case 'default':
-            document.documentElement.style.setProperty('--main-bg-color', '#f0f0f0');
-            document.documentElement.style.setProperty('--main-text-color', '#333');
-            document.documentElement.style.setProperty('--button-bg-color', '#4CAF50');
-            document.documentElement.style.setProperty('--button-text-color', 'white');
+            root.style.setProperty('--main-bg-color', '#f0f0f0');
+            root.style.setProperty('--main-text-color', '#333');
+            root.style.setProperty('--button-bg-color', '#4CAF50');
+            root.style.setProperty('--button-text-color', 'white');
+            root.style.setProperty('--font-family', 'Arial, sans-serif');
             break;
         case 'dark':
-            document.documentElement.style.setProperty('--main-bg-color', '#333');
-            document.documentElement.style.setProperty('--main-text-color', '#f0f0f0');
-            document.documentElement.style.setProperty('--button-bg-color', '#6a5acd');
-            document.documentElement.style.setProperty('--button-text-color', 'white');
+            root.style.setProperty('--main-bg-color', '#222');
+            root.style.setProperty('--main-text-color', '#092e3a');
+            root.style.setProperty('--button-bg-color', '#6a5acd');
+            root.style.setProperty('--button-text-color', 'white');
+            root.style.setProperty('--font-family', "'Roboto', sans-serif");
             break;
         case 'fantasy':
-            document.documentElement.style.setProperty('--main-bg-color', '#e6f3ff');
-            document.documentElement.style.setProperty('--main-text-color', '#4a4a4a');
-            document.documentElement.style.setProperty('--button-bg-color', '#ff9966');
-            document.documentElement.style.setProperty('--button-text-color', '#ffffff');
+            root.style.setProperty('--main-bg-color', '#f3e5ab');
+            root.style.setProperty('--main-text-color', '#4a2700');
+            root.style.setProperty('--button-bg-color', '#8b4513');
+            root.style.setProperty('--button-text-color', '#f3e5ab');
+            root.style.setProperty('--font-family', "'Cinzel', serif");
+            document.body.style.backgroundImage = "url('https://example.com/parchment-texture.jpg')";
             break;
         case 'psychedelic':
-            document.documentElement.style.setProperty('--main-bg-color', '#ff00ff');
-            document.documentElement.style.setProperty('--main-text-color', '#00ffff');
-            document.documentElement.style.setProperty('--button-bg-color', '#ffff00');
-            document.documentElement.style.setProperty('--button-text-color', '#ff00ff');
+            root.style.setProperty('--main-bg-color', '#ff00ff');
+            root.style.setProperty('--main-text-color', '#0f4141');
+            root.style.setProperty('--button-bg-color', '#ffff00');
+            root.style.setProperty('--button-text-color', '#ff00ff');
+            root.style.setProperty('--font-family', "'Monoton', cursive");
             break;
         case 'retrogaming':
-            document.documentElement.style.setProperty('--main-bg-color', '#000000');
-            document.documentElement.style.setProperty('--main-text-color', '#00ff00');
-            document.documentElement.style.setProperty('--button-bg-color', '#808080');
-            document.documentElement.style.setProperty('--button-text-color', '#00ff00');
-            document.body.style.fontFamily = "'Press Start 2P', cursive";
+            root.style.setProperty('--main-bg-color', '#000000');
+            root.style.setProperty('--main-text-color', '#00ff00');
+            root.style.setProperty('--button-bg-color', '#808080');
+            root.style.setProperty('--button-text-color', '#00ff00');
+            root.style.setProperty('--font-family', "'Press Start 2P', cursive");
             break;
     }
+
+    // Force a repaint to ensure all styles are applied correctly
+    document.body.offsetHeight;
 }
 
 // Initial setup
@@ -276,3 +328,10 @@ loadStory('storyData_1');
 
 // Set initial font size
 setFontSize(16);
+
+// Make sure this event listener is at the end of your script.js file
+document.addEventListener('DOMContentLoaded', (event) => {
+    const savedTheme = localStorage.getItem('theme') || 'default';
+    setTheme(savedTheme);
+    document.getElementById('theme-choice').value = savedTheme;
+});

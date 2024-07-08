@@ -5,10 +5,11 @@
   --main-text-color: #333;
   --button-bg-color: #4CAF50;
   --button-text-color: white;
+  --font-family: Arial, sans-serif;
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: var(--font-family);
   margin: 0;
   padding: 0;
   background-color: var(--main-bg-color);
@@ -17,6 +18,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-size: var(--base-font-size);
+  transition: all 0.5s ease;
 }
 
 header {
@@ -144,6 +146,62 @@ button.visited:hover {
 
 #font-size-control label {
   margin-right: 10px;
+}
+
+/* Theme-specific styles */
+.default-theme {
+  --main-bg-color: #f0f0f0;
+  --main-text-color: #333;
+  --button-bg-color: #4CAF50;
+  --button-text-color: white;
+  --font-family: Arial, sans-serif;
+}
+
+.dark-theme {
+  --main-bg-color: #222;
+  --main-text-color: #092e3a;
+  --button-bg-color: #6a5acd;
+  --button-text-color: white;
+  --font-family: 'Roboto', sans-serif;
+}
+
+.fantasy-theme {
+  --main-bg-color: #f3e5ab;
+  --main-text-color: #4a2700;
+  --button-bg-color: #8b4513;
+  --button-text-color: #f3e5ab;
+  --font-family: 'Cinzel', serif;
+  background-image: url('https://example.com/parchment-texture.jpg');
+  background-repeat: repeat;
+}
+
+.psychedelic-theme {
+  --main-bg-color: #ff00ff;
+  --main-text-color: #0f4141;
+  --button-bg-color: #ffff00;
+  --button-text-color: #ff00ff;
+  --font-family: 'Monoton', cursive;
+  animation: psychedelic-bg 10s linear infinite;
+}
+
+@keyframes psychedelic-bg {
+  0% { background-color: #ff00ff; }
+  33% { background-color: #00ffff; }
+  66% { background-color: #ffff00; }
+  100% { background-color: #ff00ff; }
+}
+
+.retrogaming-theme {
+  --main-bg-color: #000000;
+  --main-text-color: #00ff00;
+  --button-bg-color: #808080;
+  --button-text-color: #00ff00;
+  --font-family: 'Press Start 2P', cursive;
+  text-shadow: 2px 2px #00ff00;
+}
+
+.retrogaming-theme #story-text {
+  line-height: 1.8;
 }
 
 .retrogaming-theme {
