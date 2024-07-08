@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magical Realism Branching Story</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-controls">
+            <div class="selector">
+                <label for="story-choice">Choose a story:</label>
+                <select id="story-choice" class="large-select">
+                    <option value="storyData_2">Absurdist Office Tale</option>
+                    <option value="storyData_4">Creepy Uncertain Mystery</option>
+                    <option value="storyData_1">Magical Realism Adventure</option>
+                    <option value="storyData_3">Silly Psychedelic Story</option>
+                    <option value="storyData_5">80s Blast from the Past</option>
+                </select>
+            </div>
+            <div class="selector">
+                <label for="language-choice">Choose a language:</label>
+                <select id="language-choice" class="large-select">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Français</option>
+                    <option value="de">Deutsch</option>
+                    <option value="it">Italiano</option>
+                </select>
+            </div>
+            <div class="selector">
+                <label for="theme-choice">Choose a theme:</label>
+                <select id="theme-choice" class="large-select">
+                    <option value="default">Default</option>
+                    <option value="dark">Dark</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="psychedelic">Psychedelic</option>
+                    <option value="retrogaming">Retro Gaming</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="controls">
+            <button id="save-button">Save Progress</button>
+            <button id="load-button">Load Progress</button>
+            <div id="font-size-control">
+                <label for="font-size">Font Size:</label>
+                <input type="range" id="font-size" min="12" max="24" value="16">
+            </div>
+        </div>
+        <div id="story-container">
+            <button id="back-button" style="display: none;">Back</button>
+            <div id="story-text"></div>
+            <div id="choices">
+                <button id="choice1"></button>
+                <button id="choice2"></button>
+                <button id="choice3"></button>
+            </div>
+        </div>
+        <div id="story-visualization"></div>
+        <div id="endings-tracker">
+            <span>Endings discovered: <span id="endings-count">0</span> / <span id="total-endings">0</span></span>
+        </div>
+    </main>
+    <div id="share-buttons" style="display: none;">
+        <button id="share-twitter">Share on Twitter</button>
+        <button id="share-facebook">Share on Facebook</button>
+    </div>
+</body>
+</html>
