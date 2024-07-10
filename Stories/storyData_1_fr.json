@@ -1,0 +1,331 @@
+{
+  "start": {
+    "text": "Vous vous réveillez pour découvrir votre chambre envahie de papillons. Leurs ailes iridescentes peignent l'air de couleurs chatoyantes, transformant cet espace familier en un monde surréaliste. En vous redressant, déconcerté, vous remarquez une petite clé ouvragée posée sur votre table de nuit. Elle n'était pas là quand vous vous êtes endormi.\n\nLes papillons semblent réagir à vos mouvements, tourbillonnant autour de vous dans une danse envoûtante. Vous ne pouvez vous défaire de l'impression qu'ils essaient de vous communiquer quelque chose d'important. La clé dans votre main devient chaude, et vous sentez qu'elle est liée à ce phénomène étrange.\n\nDerrière votre fenêtre, le monde paraît normal, mais vous savez que franchir le seuil de cette pièce changera tout. Vous prenez une profonde inspiration, pesant vos options.",
+    "choices": [
+      {
+        "text": "Utiliser la clé pour déverrouiller la porte de votre chambre, embrassant ainsi la magie qui vous attend ?",
+        "next": "1"
+      },
+      {
+        "text": "Ouvrir la fenêtre, permettant aux papillons de vous guider dans un voyage aérien ?",
+        "next": "2"
+      },
+      {
+        "text": "Examiner la clé de plus près, à la recherche d'indices sur son origine et son but ?",
+        "next": "3"
+      }
+    ]
+  },
+  "1": {
+    "text": "Vous insérez la clé dans la serrure, et elle tourne avec un léger clic. En ouvrant la porte, les papillons se précipitent dans le couloir, qui s'est métamorphosé en un sentier forestier luxuriant. Les murs de votre maison ont disparu, remplacés par des arbres majestueux et une lumière tamisée. La clé dans votre main se transforme en une boussole lumineuse, dont l'aiguille tourne follement avant de se fixer sur une direction s'enfonçant dans les bois. Vous faites un pas hésitant, les feuilles craquant sous vos pieds nus.",
+    "choices": [
+      {
+        "text": "Suivre la boussole plus profondément dans la forêt mystérieuse ?",
+        "next": "1A"
+      },
+      {
+        "text": "Appeler, espérant trouver d'autres personnes dans ce monde étrange ?",
+        "next": "1B"
+      },
+      {
+        "text": "Tenter de rebrousser chemin et retourner dans votre chambre ?",
+        "next": "1C"
+      }
+    ]
+  },
+  "2": {
+    "text": "Lorsque vous ouvrez la fenêtre, les papillons vous entourent en essaim, leurs ailes frôlant votre peau. À votre grand étonnement, vous commencez à flotter, porté par leur effort collectif. Ils vous emportent dans les airs, haut au-dessus de votre quartier. Le monde en dessous semble scintiller et se transformer, les repères familiers se fondant avec des structures fantastiques. Au loin, vous apercevez trois endroits distincts, chacun pulsant d'énergie magique.",
+    "choices": [
+      {
+        "text": "Diriger les papillons vers un château flottant fait de nuages cristallins ?",
+        "next": "2A"
+      },
+      {
+        "text": "Demander aux papillons de vous emmener vers un arbre géant et conscient dont les branches atteignent la stratosphère ?",
+        "next": "2B"
+      },
+      {
+        "text": "Guider les papillons vers un portail scintillant qui flotte au-dessus du centre-ville ?",
+        "next": "2C"
+      }
+    ]
+  },
+  "3": {
+    "text": "Vous scrutez la clé, remarquant des gravures complexes le long de sa surface. En les traçant du doigt, la clé commence à briller, projetant une carte holographique sur le mur de votre chambre. La carte montre votre maison au centre, avec trois points d'intérêt pulsants à proximité. Les papillons dans votre chambre s'organisent pour former des flèches, pointant vers chaque emplacement.",
+    "choices": [
+      {
+        "text": "Suivre les indications des papillons vers le point pulsant dans votre jardin ?",
+        "next": "3A"
+      },
+      {
+        "text": "Enquêter sur la zone brillante indiquée dans la maison de votre voisin ?",
+        "next": "3B"
+      },
+      {
+        "text": "Utiliser la clé pour \"déverrouiller\" la carte holographique elle-même, cherchant plus d'informations ?",
+        "next": "3C"
+      }
+    ]
+  },
+  "1A": {
+    "text": "La boussole vous guide à travers un paysage en constante évolution. Les arbres murmurent des secrets anciens, et des créatures mythiques jettent des coups d'œil furtifs derrière le feuillage. Vous atteignez une clairière où trois artefacts flottent dans les airs : un livre, une baguette et un miroir.",
+    "choices": [
+      {
+        "text": "Saisir le livre, déverrouillant ainsi le savoir caché de la forêt ?",
+        "next": "end_1A_1"
+      },
+      {
+        "text": "Prendre la baguette, maîtrisant l'art de la magie naturelle ?",
+        "next": "end_1A_2"
+      },
+      {
+        "text": "Regarder dans le miroir, découvrant votre véritable moi magique ?",
+        "next": "end_1A_3"
+      }
+    ]
+  },
+  "end_1A_1": {
+    "text": "Vous saisissez le livre, et instantanément, la connaissance de la forêt afflue dans votre esprit. Vous comprenez le langage des arbres, les chants des oiseaux et les murmures du vent. Avec cette sagesse, vous devenez un gardien de la nature, protégeant l'équilibre délicat du royaume magique.",
+    "choices": []
+  },
+  "end_1A_2": {
+    "text": "En saisissant la baguette, vous sentez le pouls de la magie naturelle couler dans vos veines. Vous devenez un puissant druide, capable de façonner la forêt à volonté et de communiquer avec ses créatures. Votre voyage ne fait que commencer alors que vous explorez les profondeurs de vos nouvelles capacités.",
+    "choices": []
+  },
+  "end_1A_3": {
+    "text": "Le miroir révèle votre véritable moi magique - un être d'énergie pure, connecté à l'essence même de la forêt. Vous transcendez votre forme physique, ne faisant plus qu'un avec le royaume magique. Votre conscience s'étend pour englober chaque feuille, chaque créature et chaque murmure de magie dans ce monde enchanté.",
+    "choices": []
+  },
+  "1B": {
+    "text": "Votre voix résonne à travers la forêt, et bientôt vous entendez des réponses. Trois groupes distincts émergent des arbres : une tribu d'habitants de la forêt, une bande de voyageurs perdus et un cercle de sages mystiques.",
+    "choices": [
+      {
+        "text": "Rejoindre les habitants de la forêt, apprenant à vivre en harmonie avec la nature ?",
+        "next": "end_1B_1"
+      },
+      {
+        "text": "Accompagner les voyageurs, cherchant un moyen de retourner dans le monde normal ?",
+        "next": "end_1B_2"
+      },
+      {
+        "text": "Étudier avec les sages, déverrouillant les secrets de ce royaume magique ?",
+        "next": "end_1B_3"
+      }
+    ]
+  },
+  "end_1B_1": {
+    "text": "Vous rejoignez les habitants de la forêt, apprenant leurs façons de vivre en harmonie avec la nature. Au fil du temps, vous développez une connexion profonde avec la flore et la faune magiques. Votre nouvelle famille vous enseigne des rituels anciens et les secrets de la forêt. Vous devenez un membre respecté de leur tribu, dédiant votre vie à la protection des bois enchantés et de ses habitants.",
+    "choices": []
+  },
+  "end_1B_2": {
+    "text": "Vous décidez d'accompagner les voyageurs dans leur quête pour trouver un chemin de retour vers le monde normal. Votre périple vous fait traverser des paysages à couper le souffle et affronter des défis périlleux. En chemin, vous forgez des liens indestructibles avec vos compagnons. Lorsque vous découvrez enfin un portail vers votre monde, vous réalisez que la vraie magie réside dans les amitiés que vous avez nouées et les expériences que vous avez partagées.",
+    "choices": []
+  },
+  "end_1B_3": {
+    "text": "Choisissant d'étudier avec les sages mystiques, vous vous plongez dans les arts arcanes. Les années passent tandis que vous démêlez les secrets de ce royaume magique. Votre savoir et votre pouvoir grandissent au-delà de l'imagination. Finalement, vous devenez vous-même un sage renommé, guidant ceux qui se retrouvent perdus entre les mondes et les aidant à découvrir leur propre potentiel magique.",
+    "choices": []
+  },
+  "1C": {
+    "text": "Alors que vous faites demi-tour, la forêt change. Vous vous retrouvez dans un labyrinthe de souvenirs, chaque chemin montrant des aperçus de votre passé. Trois portes apparaissent, chacune promettant une sortie mais à un prix.",
+    "choices": [
+      {
+        "text": "Choisir la porte de l'oubli, retournant chez vous mais perdant tout souvenir de cette aventure ?",
+        "next": "end_1C_1"
+      },
+      {
+        "text": "Prendre la porte de la transformation, gardant vos souvenirs mais changeant définitivement votre perception de la réalité ?",
+        "next": "end_1C_2"
+      },
+      {
+        "text": "Entrer par la porte de l'intégration, fusionnant votre expérience magique avec votre vie normale ?",
+        "next": "end_1C_3"
+      }
+    ]
+  },
+  "end_1C_1": {
+    "text": "Vous franchissez la porte de l'oubli et vous réveillez dans votre lit, toute l'aventure semblant n'avoir été qu'un rêve. Votre vie reprend son cours normal, mais vous ne pouvez vous défaire de l'impression que quelque chose de profond a été perdu. Occasionnellement, le battement d'ailes d'un papillon éveille en vous un sentiment de déjà-vu, évoquant le souvenir fugace du voyage magique enfoui dans les recoins de votre esprit.",
+    "choices": []
+  },
+  "end_1C_2": {
+    "text": "En choisissant la porte de la transformation, vous retournez dans votre monde à jamais changé. Votre perception de la réalité est définitivement altérée, vous permettant de voir la magie cachée dans la vie quotidienne. Vous naviguez entre le monde ordinaire et le monde magique, menant une double vie à la fois comme une personne ordinaire et comme un gardien secret de connaissances enchantées.",
+    "choices": []
+  },
+  "end_1C_3": {
+    "text": "Vous franchissez la porte de l'intégration, fusionnant votre expérience magique avec votre vie normale. La frontière entre les deux mondes s'estompe, et vous devenez un pont entre les royaumes. Votre maison devient un sanctuaire pour les voyageurs perdus et les êtres magiques, tandis que vous continuez d'explorer les merveilles des deux mondes, à jamais enrichi par la dualité de votre existence.",
+    "choices": []
+  },
+  "2A": {
+    "text": "Les papillons vous déposent sur le balcon vaporeux du château. À l'intérieur, vous découvrez une grande salle de bal où le temps s'écoule différemment. Trois êtres éthérés s'approchent, chacun offrant un don unique.",
+    "choices": [
+      {
+        "text": "Accepter la Montre de l'Éternité, vous permettant de manipuler le temps ?",
+        "next": "end_2A_1"
+      },
+      {
+        "text": "Accepter la Couronne des Rêves, vous accordant le pouvoir de façonner la réalité par l'imagination ?",
+        "next": "end_2A_2"
+      },
+      {
+        "text": "Accepter le Voile des Dimensions, vous permettant de voyager entre des mondes parallèles ?",
+        "next": "end_2A_3"
+      }
+    ]
+  },
+  "end_2A_1": {
+    "text": "En acceptant la Montre de l'Éternité, vous sentez le flux du temps se plier à votre volonté. Vous pouvez désormais figer des moments, voyager à travers différentes époques, et même créer des boucles temporelles. Avec ce pouvoir immense vient une grande responsabilité, et vous vous consacrez à maintenir l'équilibre délicat du continuum temporel tout en explorant les mystères du passé, du présent et du futur.",
+    "choices": []
+  },
+  "end_2A_2": {
+    "text": "La Couronne des Rêves se pose sur votre front, et soudain, votre imagination devient réalité. Vous pouvez remodeler le monde autour de vous par la simple pensée, créant des merveilles au-delà de toute croyance. En apprenant à maîtriser ce pouvoir incroyable, vous devenez un maître artisan de la réalité, utilisant vos dons pour apporter joie, beauté et magie tant au château de nuages qu'au monde en contrebas.",
+    "choices": []
+  },
+  "end_2A_3": {
+    "text": "En revêtant le Voile des Dimensions, vous acquérez la capacité de voyager entre des mondes parallèles. Chaque réalité que vous visitez offre de nouvelles merveilles et de nouveaux défis. Vous devenez un explorateur cosmique, cartographiant le multivers et aidant les âmes perdues à retrouver leur chemin. Vos aventures sont infinies, car il y a une infinité de mondes à découvrir et d'innombrables versions de vous-même à rencontrer.",
+    "choices": []
+  },
+  "2B": {
+    "text": "L'arbre vous accueille par télépathie, offrant de partager son vaste savoir. Vous apprenez l'existence de trois grandes quêtes qui pourraient restaurer l'équilibre du monde.",
+    "choices": [
+      {
+        "text": "Entreprendre la quête pour récupérer les graines perdues de la création dans le Néant ?",
+        "next": "end_2B_1"
+      },
+      {
+        "text": "Se lancer dans la quête pour guérir la fissure entre les royaumes physique et spirituel ?",
+        "next": "end_2B_2"
+      },
+      {
+        "text": "S'embarquer dans la quête pour éveiller les gardiens endormis de la nature ?",
+        "next": "end_2B_3"
+      }
+    ]
+  },
+  "end_2B_1": {
+    "text": "Vous vous lancez dans la périlleuse quête pour récupérer les graines perdues de la création dans le Néant. Votre voyage vous mène aux confins de l'existence, où vous affrontez des défis inimaginables. Après avoir réussi, vous revenez avec le pouvoir de faire germer une nouvelle vie et même de créer des écosystèmes entiers. Vous travaillez aux côtés du grand arbre pour régénérer les terres stériles et inaugurer une nouvelle ère d'abondance naturelle.",
+    "choices": []
+  },
+  "end_2B_2": {
+    "text": "En acceptant la mission de guérir la fissure entre les royaumes physique et spirituel, vous devenez un pont entre les mondes. Votre quête vous conduit à travers les plans matériels et éthérés, affrontant des épreuves qui mettent à l'épreuve votre corps, votre esprit et votre âme. En réparant la division cosmique, vous acquérez la capacité de communiquer avec les esprits et d'apporter l'harmonie aux deux royaumes, inaugurant une ère d'éveil spirituel sans précédent.",
+    "choices": []
+  },
+  "end_2B_3": {
+    "text": "Vous relevez le défi d'éveiller les gardiens endormis de la nature. Votre quête vous mène à des êtres anciens, dormant depuis des millénaires. En réveillant chaque gardien, vous absorbez une partie de leur pouvoir primordial et de leur sagesse. Une fois votre mission accomplie, vous rejoignez leurs rangs en tant que nouveau gardien, maniant la puissance combinée de la nature pour protéger le monde contre les menaces, tant magiques que naturelles.",
+    "choices": []
+  },
+  "2C": {
+    "text": "Vous entrez dans le portail et vous retrouvez dans un nexus de réalités. Trois versions de votre ville s'étendent devant vous, chacune radicalement différente de celle que vous connaissez.",
+    "choices": [
+      {
+        "text": "Entrer dans un futur utopique où technologie et nature sont en parfait équilibre ?",
+        "next": "end_2C_1"
+      },
+      {
+        "text": "Pénétrer dans un présent alternatif où la magie a toujours fait partie de la vie quotidienne ?",
+        "next": "end_2C_2"
+      },
+      {
+        "text": "Entrer dans un passé reconstitué, vous permettant d'intégrer la magie dans l'histoire ?",
+        "next": "end_2C_3"
+      }
+    ]
+  },
+  "end_2C_1": {
+    "text": "En entrant dans le futur utopique, vous découvrez un monde où technologie et nature coexistent en parfaite harmonie. Vous vous adaptez rapidement à cette société avancée, apportant votre perspective unique du passé. Votre connaissance des deux mondes fait de vous un pont inestimable entre tradition et innovation, contribuant à garantir que cet équilibre délicat soit maintenu pour les générations à venir.",
+    "choices": []
+  },
+  "end_2C_2": {
+    "text": "Vous choisissez le présent alternatif où la magie fait partie intégrante de la vie quotidienne. Votre transition est d'abord difficile, mais vous vous épanouissez bientôt dans cette réalité merveilleuse. Votre perspective nouvelle sur la magie fait de vous un innovateur recherché dans les technologies magiques. Vous révolutionnez la façon dont la magie est utilisée dans la société, laissant une empreinte indélébile sur ce monde enchanté.",
+    "choices": []
+  },
+  "end_2C_3": {
+    "text": "En optant pour le passé reconstitué, vous vous retrouvez à un tournant crucial de l'histoire. Armé de votre connaissance du futur et de vos nouvelles capacités magiques, vous guidez subtilement le cours des événements. Vos actions se répercutent à travers le temps, créant une nouvelle ligne temporelle où magie et technologie coexistent dès le début, façonnant un monde qui mêle harmonieusement le meilleur des deux domaines.",
+    "choices": []
+  },
+  "3A": {
+    "text": "Dans votre jardin, vous découvrez un jardin caché de plantes impossibles. En son centre se dresse une fontaine de lumière stellaire liquide, avec trois ruisseaux scintillants.",
+    "choices": [
+      {
+        "text": "Boire au Ruisseau de la Prévoyance, gagnant la capacité de voir les futurs possibles ?",
+        "next": "end_3A_1"
+      },
+      {
+        "text": "Boire au Ruisseau de la Communion, vous permettant de parler à tous les êtres vivants ?",
+        "next": "end_3A_2"
+      },
+      {
+        "text": "Boire au Ruisseau de la Métamorphose, vous donnant le pouvoir de vous transformer à volonté ?",
+        "next": "end_3A_3"
+      }
+    ]
+  },
+  "end_3A_1": {
+    "text": "En buvant au Ruisseau de la Prévoyance, votre esprit s'étend pour percevoir les innombrables possibilités du futur. Vous voyez les chemins ramifiés des résultats potentiels pour chaque décision. Ce don vous permet de guider les autres vers de meilleurs avenirs, mais vous accable aussi de la connaissance des chemins non empruntés. Vous devenez un oracle sage, équilibrant soigneusement la responsabilité de vos visions avec le libre arbitre de ceux qui cherchent vos conseils.",
+    "choices": []
+  },
+  "end_3A_2": {
+    "text": "En buvant au Ruisseau de la Communion, le monde autour de vous s'anime de voix. Plantes, animaux et même la terre elle-même partagent leurs pensées et leurs sentiments avec vous. Vous devenez un traducteur entre les espèces, favorisant la compréhension et la coopération entre tous les êtres vivants. Votre capacité unique vous permet de guérir les fissures dans la nature et de créer une harmonie sans précédent dans les écosystèmes du monde entier.",
+    "choices": []
+  },
+  "end_3A_3": {
+    "text": "Le Ruisseau de la Métamorphose vous accorde le pouvoir de métamorphose. Vous pouvez vous transformer en n'importe quelle créature, réelle ou imaginaire, à volonté. Cette capacité incroyable vous permet de vivre la vie sous d'innombrables perspectives. Vous devenez un maître de l'empathie et de l'adaptation, utilisant votre don pour combler les écarts entre différentes cultures et espèces, et pour protéger ceux qui en ont besoin en devenant ce que chaque situation exige.",
+    "choices": []
+  },
+  "3B": {
+    "text": "Vous découvrez que la maison de votre voisin s'est transformée en un dépôt d'artefacts magiques. Les papillons vous guident vers trois objets particulièrement puissants.",
+    "choices": [
+      {
+        "text": "Choisir la Lentille de Vérité, révélant la magie cachée dans le monde quotidien ?",
+        "next": "end_3B_1"
+      },
+      {
+        "text": "Opter pour la Plume de Création, vous permettant d'écrire de nouvelles réalités ?",
+        "next": "end_3B_2"
+      },
+      {
+        "text": "Prendre la Cape des Cultures, vous accordant la capacité de comprendre et de vous fondre dans n'importe quelle société ?",
+        "next": "end_3B_3"
+      }
+    ]
+  },
+  "end_3B_1": {
+    "text": "En choisissant la Lentille de Vérité, vous gagnez la capacité de voir la magie cachée dans le monde quotidien. Votre perception change, révélant une réalité foisonnante de merveilles et d'enchantements. Vous vous consacrez à documenter ces phénomènes magiques, devenant un artiste et un érudit renommé qui aide les autres à apprécier la nature extraordinaire du monde apparemment ordinaire qui les entoure.",
+    "choices": []
+  },
+  "end_3B_2": {
+    "text": "En saisissant la Plume de Création, vous découvrez le pouvoir d'écrire de nouvelles réalités. Vos mots ont le pouvoir d'altérer le tissu du monde, créant de nouvelles terres, êtres et même lois de la nature. Avec ce grand pouvoir vient une grande responsabilité, et vous créez soigneusement des merveilles qui apportent plus de magie et de joie dans le monde, devenant un auteur légendaire dont les histoires prennent littéralement vie.",
+    "choices": []
+  },
+  "end_3B_3": {
+    "text": "En revêtant la Cape des Cultures, vous acquérez la capacité miraculeuse de comprendre et de vous fondre dans n'importe quelle société, humaine ou autre. Vous devenez un diplomate universel, comblant les fossés entre différentes cultures, espèces et même dimensions. Votre voyage vous mène aux confins du monde et au-delà, tandis que vous œuvrez sans relâche pour favoriser la compréhension et la paix au-delà de toutes les frontières.",
+    "choices": []
+  },
+  "3C": {
+    "text": "La carte s'étend en un modèle tridimensionnel de l'univers. Vous réalisez que vous pouvez utiliser la clé pour déverrouiller les forces fondamentales de la réalité. Trois serrures cosmiques apparaissent.",
+    "choices": [
+      {
+        "text": "Déverrouiller les Lois de la Physique, vous permettant de plier la réalité à volonté ?",
+        "next": "end_3C_1"
+      },
+      {
+        "text": "Déverrouiller les Fils du Destin, vous permettant de réécrire les destinées ?",
+        "next": "end_3C_2"
+      },
+      {
+        "text": "Déverrouiller les Frontières du Soi, fusionnant votre conscience avec l'univers ?",
+        "next": "end_3C_3"
+      }
+    ]
+  },
+  "end_3C_1": {
+    "text": "En déverrouillant les Lois de la Physique, vous gagnez la capacité de plier la réalité à volonté. La gravité, le temps et l'espace deviennent vos jouets. Vous pouvez créer des dimensions de poche, altérer le flux du temps et remodeler la matière par la pensée. Alors que vous explorez les limites de vos pouvoirs divins, vous vous débattez avec la responsabilité de manier de telles forces fondamentales, vous efforçant d'utiliser vos capacités pour le bien de toute l'existence.",
+    "choices": []
+  },
+  "end_3C_2": {
+    "text": "En déverrouillant les Fils du Destin, vous gagnez le pouvoir de réécrire les destinées. Vous pouvez voir et modifier la toile interconnectée de cause à effet qui façonne toutes les vies. Avec cette capacité profonde vient le poids de la responsabilité cosmique. Vous tissez soigneusement les fils du destin, travaillant dans l'ombre pour guider le monde vers un avenir plus radieux tout en respectant l'équilibre délicat entre le libre arbitre et la prédestination.",
+    "choices": []
+  },
+  "end_3C_3": {
+    "text": "En choisissant d'ouvrir les Frontières du Soi, votre conscience s'étend pour fusionner avec l'univers lui-même. Vous ne faites plus qu'un avec toute la création, expérimentant l'existence sous toutes les perspectives possibles simultanément. Dans cet état d'unité cosmique, vous guidez l'évolution de la réalité elle-même, influençant subtilement la grande tapisserie de l'existence vers une plus grande harmonie et une illumination pour tous les êtres.",
+    "choices": []
+  }
+}

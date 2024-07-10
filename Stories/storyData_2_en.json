@@ -1,0 +1,331 @@
+{
+  "start": {
+    "text": "You arrive at work to find your office has been replaced by a giant aquarium. Your coworkers swim by in business attire, using jellyfish as laptops. Your boss, now a talking octopus, waves a tentacle at you expectantly. On your desk, which is now a coral reef, you see three items:",
+    "choices": [
+      {
+        "text": "Put on the snorkel and dive in to join your aquatic colleagues?",
+        "next": "1"
+      },
+      {
+        "text": "Answer the conch shell phone that's suddenly ringing?",
+        "next": "2"
+      },
+      {
+        "text": "Open the barnacle-encrusted filing cabinet?",
+        "next": "3"
+      }
+    ]
+  },
+  "1": {
+    "text": "You don the snorkel and plunge into the office-quarium. Your clothes instantly transform into a sleek business suit made of fish scales. Your octopus boss congratulates you on your prompt adaptation and assigns you to one of three urgent projects:",
+    "choices": [
+      {
+        "text": "Negotiate a merger with a rival company of sentient sea cucumbers?",
+        "next": "1A"
+      },
+      {
+        "text": "Develop a marketing strategy for underwater staplers?",
+        "next": "1B"
+      },
+      {
+        "text": "Conduct a performance review for the office's resident shark?",
+        "next": "1C"
+      }
+    ]
+  },
+  "2": {
+    "text": "You answer the conch shell, and a voice made of bubbles informs you that you've won an all-expenses-paid business trip. You're instructed to choose your destination immediately:",
+    "choices": [
+      {
+        "text": "The Bermuda Triangle's premier corporate retreat center?",
+        "next": "2A"
+      },
+      {
+        "text": "The Moon's first zero-gravity office park?",
+        "next": "2B"
+      },
+      {
+        "text": "A time-traveling seminar in Ancient Rome's business district?",
+        "next": "2C"
+      }
+    ]
+  },
+  "3": {
+    "text": "You open the barnacle-encrusted filing cabinet, releasing a cloud of glitter and corporate memos from the 1980s. A genie emerges, claiming to be the spirit of middle management. He offers to grant you one of three wishes:",
+    "choices": [
+      {
+        "text": "The ability to photosynthesize your own coffee?",
+        "next": "3A"
+      },
+      {
+        "text": "A stapler that can bind together the fabric of reality?",
+        "next": "3B"
+      },
+      {
+        "text": "The power to communicate exclusively in corporate buzzwords?",
+        "next": "3C"
+      }
+    ]
+  },
+  "1A": {
+    "text": "You swim to the negotiation reef to meet the sea cucumber executives. They insist on communicating through interpretive dance. You must choose your negotiation strategy:",
+    "choices": [
+      {
+        "text": "Perform an underwater tango to propose the merger terms?",
+        "next": "end_1A_1"
+      },
+      {
+        "text": "Suggest a dance-off to determine market share?",
+        "next": "end_1A_2"
+      },
+      {
+        "text": "Hire a troupe of sea horses as translators?",
+        "next": "end_1A_3"
+      }
+    ]
+  },
+  "end_1A_1": {
+    "text": "Your underwater tango impresses the sea cucumber executives with its grace and precision. They agree to the merger, and you become known as the 'Dancing Dealmaker of the Deep.' Your innovative negotiation technique revolutionizes underwater business practices, leading to a new era of rhythmic corporate communication. You're promoted to Chief Choreography Officer, responsible for all future aquatic acquisitions.",
+    "choices": []
+  },
+  "end_1A_2": {
+    "text": "The dance-off becomes the talk of the underwater business world. Your electric eel slide secures a 60% market share, but the sea cucumbers' surprisingly agile conga line clinches some key assets. The resulting company, 'Cucumber Jive Inc.', dominates the ocean floor with its unique blend of business acumen and dance expertise. You're appointed as the VP of Groovy Growths, overseeing a team of accountants-turned-dancers.",
+    "choices": []
+  },
+  "end_1A_3": {
+    "text": "The seahorse translators prove to be a stroke of genius. Their elegant movements perfectly capture the nuances of both sides' proposals. The negotiations are so successful that you create a new industry: underwater interpretive business translation. Your company, 'Seahorse Semaphore Solutions,' becomes the go-to for all cross-species corporate communications. You retire early, spending your days choreographing intricate business ballets for aquatic enterprises.",
+    "choices": []
+  },
+  "1B": {
+    "text": "You brainstorm with a school of idea fish to develop the underwater stapler campaign. Your team proposes three unique selling points:",
+    "choices": [
+      {
+        "text": "\"Staples documents and seals underwater sandwiches!\"",
+        "next": "end_1B_1"
+      },
+      {
+        "text": "\"Doubles as a mini-harpoon for office shark defense!\"",
+        "next": "end_1B_2"
+      },
+      {
+        "text": "\"Runs on renewable kelp energy!\"",
+        "next": "end_1B_3"
+      }
+    ]
+  },
+  "end_1B_1": {
+    "text": "Your dual-purpose stapler becomes an overnight sensation. Office workers and deep-sea chefs alike clamor for this revolutionary device. You've single-handedly created a new market for underwater office-culinary equipment. Your success leads to a line of hybrid products, including the 'Fax Machine Fryer' and the 'Photocopier Panini Press.' You're hailed as the 'Thomas Edison of the Ocean,' revolutionizing both office efficiency and underwater cuisine.",
+    "choices": []
+  },
+  "end_1B_2": {
+    "text": "The shark defense stapler becomes mandatory equipment in every underwater office. Workplace safety statistics improve dramatically, and you're awarded the prestigious 'Golden Fin Award for Business Innovation.' However, the sudden unemployment of office sharks leads to the formation of S.H.A.R.K.S. (Stapler-Harmed Aquatic Rescuers Kindness Society). You spend your career balancing between product innovation and shark outreach programs, becoming a leading figure in underwater corporate social responsibility.",
+    "choices": []
+  },
+  "end_1B_3": {
+    "text": "Your kelp-powered stapler sparks an eco-friendly revolution in underwater office supplies. The 'Green Tide Movement' sweeps across the ocean's corporate landscape, with your stapler leading the charge. You become the face of sustainable underwater business practices, giving TED (Talking Eco Dolphin) talks and consulting for major aquatic corporations. Your invention eventually leads to entire underwater cities powered by kelp, and you're immortalized as the 'Kelp Crusader' in the Aquatic Hall of Fame.",
+    "choices": []
+  },
+  "1C": {
+    "text": "You approach the office shark for its performance review. It seems nervous and offers you three ways to conduct the evaluation:",
+    "choices": [
+      {
+        "text": "A friendly game of underwater charades?",
+        "next": "end_1C_1"
+      },
+      {
+        "text": "A role-reversal where you act like a shark and it acts like you?",
+        "next": "end_1C_2"
+      },
+      {
+        "text": "A synchronized swimming routine showcasing its skills?",
+        "next": "end_1C_3"
+      }
+    ]
+  },
+  "end_1C_1": {
+    "text": "The underwater charades session reveals the shark's incredible talent for non-verbal communication. Its fin-tastic gestures and bubble ring formations convey complex business strategies with astonishing clarity. Impressed, you not only give the shark a glowing review but also create a new department of 'Silent Strategy,' with the shark as its head. This revolutionary approach to underwater business communication makes waves across the industry, and your company becomes known for its eerily effective silent meetings.",
+    "choices": []
+  },
+  "end_1C_2": {
+    "text": "The role-reversal exercise leads to a profound breakthrough in inter-species understanding. As you don a makeshift shark fin and the shark awkwardly holds a pen, you both gain invaluable insights into each other's perspectives. This experience inspires you to implement a company-wide 'Swim in Their Fins' program, promoting empathy and understanding across all aquatic species. Your innovative approach to workplace diversity makes you a sought-after speaker at underwater corporate events, and your office becomes a model for cross-species collaboration.",
+    "choices": []
+  },
+  "end_1C_3": {
+    "text": "The shark's synchronized swimming routine is a revelation. Its graceful movements and impeccable timing showcase not just physical prowess, but also creativity, teamwork, and attention to detail. Inspired, you restructure the entire performance review system around 'Aquatic Artistry,' where employees demonstrate their skills through elaborate water ballets. This unique approach boosts morale, improves performance, and turns your quarterly reviews into must-see events. Your company becomes famous for its spectacular 'Fiscal Water Follies,' attracting top talent from across the seven seas.",
+    "choices": []
+  },
+  "2A": {
+    "text": "You arrive at the Bermuda Triangle's corporate retreat. The team-building exercises are unlike anything you've seen:",
+    "choices": [
+      {
+        "text": "Participate in the \"Find Your Way Back from a Parallel Dimension\" challenge?",
+        "next": "end_2A_1"
+      },
+      {
+        "text": "Join the \"Synergize with Your Past and Future Selves\" workshop?",
+        "next": "end_2A_2"
+      },
+      {
+        "text": "Attend the \"Harnessing Wormhole Energy for Productivity\" seminar?",
+        "next": "end_2A_3"
+      }
+    ]
+  },
+  "end_2A_1": {
+    "text": "The parallel dimension challenge takes an unexpected turn when you discover a reality where PowerPoint presentations are illegal and all business is conducted via interpretive dance. You become the liaison between dimensions, teaching your colleagues the art of pitch-pirouettes and budget-ballet. Your unique interdimensional skills make you indispensable, and you're promoted to 'Chief Reality Officer,' responsible for navigating the company through the multiverse of business opportunities.",
+    "choices": []
+  },
+  "end_2A_2": {
+    "text": "Synergizing with your past and future selves leads to a paradoxical productivity boost. You form 'Me, Myself, and Inc.,' a consulting firm where you continuously collaborate with your temporal variants. Your past self handles data entry, your present self manages client relations, and your future self provides strategic foresight. This time-bending business model revolutionizes the industry, though it does make scheduling lunch breaks rather complicated.",
+    "choices": []
+  },
+  "end_2A_3": {
+    "text": "The wormhole energy seminar opens your eyes to the untapped potential of space-time anomalies in the workplace. You pioneer 'Wormhole Wednesdays,' where employees can slip through temporal shortcuts to extend deadlines or attend meetings in the past. Your innovative use of cosmic phenomena catapults your company to the forefront of the space-time sector. However, the constant timey-wimey shenanigans play havoc with the payroll department, leading to the creation of a new 'Quantum Accounting' division.",
+    "choices": []
+  },
+  "2B": {
+    "text": "You float into the Moon's zero-gravity office park. The orientation packet offers three starter positions:",
+    "choices": [
+      {
+        "text": "Lunar Latte Artisan: Create cappuccinos that defy physics?",
+        "next": "end_2B_1"
+      },
+      {
+        "text": "Gravity Well Operator: Ensure colleagues don't float away during meetings?",
+        "next": "end_2B_2"
+      },
+      {
+        "text": "Selenite Synchronizer: Align office productivity with lunar phases?",
+        "next": "end_2B_3"
+      }
+    ]
+  },
+  "end_2B_1": {
+    "text": "Your zero-gravity cappuccinos become the talk of the solar system. Your signature 'Moonaccino,' featuring lunar dust sprinkles and milk foam sculpted into perfect replicas of lunar craters, wins the Galactic Barista Championship. NASA commissions you to develop 'Cosmic Brew,' a coffee that can power both astronauts and spacecraft. Your café, 'One Small Sip,' becomes a mandatory stop for all interplanetary business travelers, making you the most influential barista in the known universe.",
+    "choices": []
+  },
+  "end_2B_2": {
+    "text": "Your role as Gravity Well Operator transforms lunar business practices. You develop the revolutionary 'Tether and Whiteboard' method, keeping executives anchored while allowing for dynamic, three-dimensional presentations. Your innovation leads to the creation of 'Gravity Wells, Inc.,' specializing in bespoke gravitational solutions for zero-g offices across the galaxy. You're dubbed the 'Anchor of Innovation' and become a weightless workplace guru, penning the best-selling book 'How to Win Friends and Influence People in Zero Gravity.'",
+    "choices": []
+  },
+  "end_2B_3": {
+    "text": "As Selenite Synchronizer, you discover an uncanny connection between lunar phases and market trends. Your 'Lunar Productivity Matrix' becomes the cornerstone of a new management philosophy. Companies across the Earth and Moon restructure their fiscal years to align with the lunar calendar, and terms like 'New Moon Networking' and 'Full Moon Brainstorming' enter the corporate lexicon. You're hailed as a visionary, splitting your time between Earth-bound TED talks and lunar leadership retreats, teaching executives to harness the power of lunar synergy.",
+    "choices": []
+  },
+  "2C": {
+    "text": "You materialize in Ancient Rome's business district. Your time-traveling seminar focuses on modernizing Roman corporate culture. You're asked to lead a breakout session:",
+    "choices": [
+      {
+        "text": "\"Chariot Pool: Carpooling for the Modern Centurion\"?",
+        "next": "end_2C_1"
+      },
+      {
+        "text": "\"Gladiatorial Team-Building: From Arena to Boardroom\"?",
+        "next": "end_2C_2"
+      },
+      {
+        "text": "\"Togas to Tailored Suits: Evolving the Office Dress Code\"?",
+        "next": "end_2C_3"
+      }
+    ]
+  },
+  "end_2C_1": {
+    "text": "Your 'Chariot Pool' initiative is a runaway success. Roman roads are soon filled with multi-horse chariots carrying toga-clad commuters. You're awarded a laurel wreath for reducing Roman traffic congestion by 75%. The emperor, impressed by your innovation, appoints you as 'Magister Vehiculorum' (Master of Vehicles). Your ideas spread across the empire, culminating in the creation of the 'Via Pool-ia,' a network of chariot-sharing stations that revolutionizes ancient urban transportation.",
+    "choices": []
+  },
+  "end_2C_2": {
+    "text": "Your 'Gladiatorial Team-Building' workshops take Rome by storm. Corporate rivalries are now settled in the Colosseum with foam swords and team jerseys. Quarterly reviews become epic spectacles, with underperforming employees facing off against HR-trained lions (who are really just interns in costumes). Your company, 'Et Tu, Brute Force LLC,' becomes the premier corporate training agency in the empire. You retire undefeated as the 'Consul of Corporate Combat,' with a villa overlooking the Gladiatorial Gardens of Growth and Development.",
+    "choices": []
+  },
+  "end_2C_3": {
+    "text": "Your fashion reformation shakes the foundations of Roman society. Togas are now casual Friday wear, while power suits become the norm. You introduce casual sandal policies and 'Centurion Casual' for middle management. The emperor himself adopts your 'Imperial Executive' line, complete with purple pinstripes. Your fashion house, 'VII-XI BC,' becomes the arbiter of corporate style across the empire. You're awarded the title 'Arbiter Elegantiae' (Judge of Elegance) and spend your days designing battle-ready business wear for aspiring Roman entrepreneurs.",
+    "choices": []
+  },
+  "3A": {
+    "text": "You gain the ability to photosynthesize coffee. Your productivity skyrockets, but there are unexpected side effects:",
+    "choices": [
+      {
+        "text": "Your hair turns into coffee beans. Become the office's new favorite barista?",
+        "next": "end_3A_1"
+      },
+      {
+        "text": "You start attracting bees. Pivot to a career in artisanal honey production?",
+        "next": "end_3A_2"
+      },
+      {
+        "text": "You can't stop vibrating. Take up a new job as a human massage chair?",
+        "next": "end_3A_3"
+      }
+    ]
+  },
+  "end_3A_1": {
+    "text": "Embracing your new coffee-bean hair, you become the office's most popular barista. Your head-brewed coffee is hailed as the most aromatic and flavorful in the corporate world. You launch a chain of cafes called 'Cranial Brew,' where customers can watch their coffee grow and be harvested in real-time. Your success leads to a revolution in the coffee industry, with competitors scrambling to develop their own body-part coffee production methods. You retire as a caffeine tycoon, your hair eternally percolating with new blend ideas.",
+    "choices": []
+  },
+  "end_3A_2": {
+    "text": "The bees attracted by your coffee-producing body become your new business partners. You create 'Buzzness Enterprises,' a company specializing in coffee-infused honey products. Your 'Mellifluous Mocha Spread' becomes a breakfast sensation, and your 'Honeyed Hazelnut Hair Gel' takes the beauty industry by storm. You're soon known as the 'Queen Bee of Corporate Crossovers,' with your office doubling as a hive of innovation. Your annual shareholder meetings, held in a giant artificial flower, are always a-buzz with excitement.",
+    "choices": []
+  },
+  "end_3A_3": {
+    "text": "Your constant vibration leads to an unexpected career change. You become 'The Human Percolator,' a revolutionary massage chair that brews coffee while providing relaxation. Luxury spas and high-stress offices alike clamor for your services. You franchise yourself, training an army of coffee-infused masseuses. Your brand, 'Jitters & Jolts,' becomes synonymous with caffeinated relaxation. You eventually ascend to a higher plane of existence, becoming a being of pure caffeine and good vibes, blessing stressed workers with your energizing aura.",
+    "choices": []
+  },
+  "3B": {
+    "text": "Your new reality-binding stapler arrives. Human Resources calls you in to discuss its appropriate use:",
+    "choices": [
+      {
+        "text": "Merge the copy room with a magical land to save on paper costs?",
+        "next": "end_3B_1"
+      },
+      {
+        "text": "Staple Monday to Friday, creating a perpetual three-day weekend?",
+        "next": "end_3B_2"
+      },
+      {
+        "text": "Bind your performance review to a parallel universe where you're Employee of the Century?",
+        "next": "end_3B_3"
+      }
+    ]
+  },
+  "end_3B_1": {
+    "text": "Your merger of the copy room and the mgical land is a smashing success. Employees now frolic with fauns while making copies, and Mr. Hummus is appointed head of the 'Interdimensional Resources' department. Paper costs plummet as reports are now written on magical leaves. However, occasional incursions by the Mean Lady require you to institute a new 'Winter Is Coming' protocol for data backup. You're promoted to 'Gatekeeper of the Corporate Realm,' responsible for maintaining the delicate balance between productivity and fantasy.",
+    "choices": []
+  },
+  "end_3B_2": {
+    "text": "Your stapling of Monday to Friday creates a time paradox that results in a perpetual three-day weekend. Productivity initially skyrockets due to the perpetual 'Friday feeling,' but soon the concept of 'Monday' becomes a distant legend. You're tasked with creating a new calendar system based on mood rather than days. Your 'Vibelendar' becomes the new global standard, with people planning meetings for 'Energetic o'clock on Motivation Day.' You're hailed as a chrono-revolutionary and spend your eternal weekend exploring the now-infinite possibilities of work-life balance.",
+    "choices": []
+  },
+  "end_3B_3": {
+    "text": "Binding your performance review to a parallel universe where you're Employee of the Century has unexpected consequences. Your alternate self's achievements start bleeding into reality, setting impossible standards. Soon, you're simultaneously managing projects across multiple dimensions, leading to a new field of 'quantum productivity.' Your ability to leverage cross-dimensional synergies makes you indispensable, and you're promoted to 'Multiversal Operations Director.' However, keeping track of your various selves' accomplishments requires hiring yourself from yet another universe as your personal assistant.",
+    "choices": []
+  },
+  "3C": {
+    "text": "You now speak only in corporate buzzwords. Your colleagues react in various ways:",
+    "choices": [
+      {
+        "text": "You're promoted to CEO because no one understands you, but everyone is impressed?",
+        "next": "end_3C_1"
+      },
+      {
+        "text": "You become the official office translator for visiting aliens?",
+        "next": "end_3C_2"
+      },
+      {
+        "text": "You accidentally summon the elder god of bureaucracy with your incantations?",
+        "next": "end_3C_3"
+      }
+    ]
+  },
+  "end_3C_1": {
+    "text": "Your incomprehensible buzzword mastery catapults you to the role of CEO. Board meetings become a symphony of synergy, paradigm shifts, and blue-sky thinking. The company's stock price soars as investors are dazzled by your ability to say nothing of substance with utmost confidence. You publish a best-selling book, 'Leverage Your Lexicon: Disrupting Dialogue Dynamics,' which consists entirely of randomly generated buzzwords. You retire to a private island, where you spend your days crafting increasingly absurd corporate jargon and watching the business world scramble to decipher your wisdom.",
+    "choices": []
+  },
+  "end_3C_2": {
+    "text": "Your buzzword proficiency makes you the perfect translator for extraterrestrial visitors. It turns out that alien languages are entirely composed of vague, impressive-sounding phrases. You become Earth's ambassador to the stars, negotiating intergalactic trade deals with a deft mix of 'synergistic value propositions' and 'cross-dimensional market penetration strategies.' Your universal translator, 'The Jargonaut,' becomes standard issue for all space missions. You eventually marry a Zorkblaxian prince, united by your mutual love of meaningless yet important-sounding communication.",
+    "choices": []
+  },
+  "end_3C_3": {
+    "text": "Your ceaseless stream of buzzwords accidentally summons Bureaucrathos, the elder god of red tape and middle management. The office is plunged into a nightmare realm of endless forms, impossible-to-navigate phone menus, and meetings that literally never end. You're appointed as Bureaucrathos' grand vizier, tasked with spreading inefficiency across the cosmos. Your new business card is an ever-changing hologram that requires three signatures and a notary to read. You spend eternity in a paradise of perpetual process, where 'quick email' is a paradox and every decision requires a committee.",
+    "choices": []
+  }
+}
