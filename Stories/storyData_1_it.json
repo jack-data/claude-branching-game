@@ -1,0 +1,331 @@
+{
+  "start": {
+    "text": "Ti svegli e trovi la tua camera da letto piena di farfalle. Le loro ali iridescenti dipingono l'aria di colori scintillanti, trasformando lo spazio familiare in un surreale paese delle meraviglie. Mentre ti alzi, sbalordito, noti una piccola chiave ornata posata sul tuo comodino. Non era lì quando sei andato a dormire.\n\nLe farfalle sembrano reagire al tuo movimento, vorticando intorno a te in una danza ipnotica. Non riesci a scrollarti di dosso la sensazione che stiano cercando di comunicarti qualcosa di importante. La chiave nella tua mano si scalda e percepisci che è collegata a questo strano fenomeno.\n\nFuori dalla finestra, il mondo sembra normale, ma sai che uscire da questa stanza cambierà tutto. Fai un respiro profondo, considerando le tue opzioni.",
+    "choices": [
+      {
+        "text": "Usare la chiave per sbloccare la porta della camera da letto, abbracciando qualsiasi magia ti attenda?",
+        "next": "1"
+      },
+      {
+        "text": "Aprire la finestra, permettendo alle farfalle di guidarti in un viaggio aereo?",
+        "next": "2"
+      },
+      {
+        "text": "Esaminare la chiave più da vicino, cercando indizi sulla sua origine e scopo?",
+        "next": "3"
+      }
+    ]
+  },
+  "1": {
+    "text": "Inserisci la chiave nella serratura e gira con un leggero click. Mentre apri la porta, le farfalle si precipitano oltre te nel corridoio, che si è trasformato in un rigoglioso sentiero forestale. Le pareti della tua casa sono scomparse, sostituite da alberi imponenti e luce solare filtrata. La chiave nella tua mano si trasforma in una bussola luminosa, il cui ago gira selvaggiamente prima di stabilizzarsi in una direzione più profonda nel bosco. Fai un passo esitante in avanti, le foglie che scricchiolano sotto i tuoi piedi nudi.",
+    "choices": [
+      {
+        "text": "Seguire la bussola più in profondità nella misteriosa foresta?",
+        "next": "1A"
+      },
+      {
+        "text": "Chiamare, sperando di trovare altre persone in questo strano nuovo mondo?",
+        "next": "1B"
+      },
+      {
+        "text": "Tentare di ripercorrere i tuoi passi e tornare nella tua camera da letto?",
+        "next": "1C"
+      }
+    ]
+  },
+  "2": {
+    "text": "Mentre apri la finestra, le farfalle sciamano intorno a te, le loro ali ti sfiorano la pelle. Con tuo stupore, inizi a fluttuare, sollevato dal loro sforzo collettivo. Ti portano fuori nell'aria aperta, in alto sopra il tuo quartiere. Il mondo sottostante sembra brillare e cambiare, i punti di riferimento familiari si fondono con strutture fantastiche. In lontananza, scorgi tre luoghi distinti, ognuno pulsante di energia magica.",
+    "choices": [
+      {
+        "text": "Dirigere le farfalle per portarti a un castello fluttuante fatto di nuvole cristalline?",
+        "next": "2A"
+      },
+      {
+        "text": "Dirigere le farfalle per portarti a un albero gigante senziente i cui rami raggiungono la stratosfera?",
+        "next": "2B"
+      },
+      {
+        "text": "Dirigere le farfalle per portarti a un portale scintillante che fluttua sopra il centro della città?",
+        "next": "2C"
+      }
+    ]
+  },
+  "3": {
+    "text": "Scrutini la chiave, notando intricati intagli lungo la sua superficie. Mentre li tracci con il dito, la chiave inizia a brillare, proiettando una mappa olografica sulla parete della tua camera. La mappa mostra la tua casa al centro, con tre punti pulsanti di interesse nelle vicinanze. Le farfalle nella tua stanza si dispongono a formare frecce, indicando ciascuna posizione.",
+    "choices": [
+      {
+        "text": "Seguire la guida delle farfalle verso il punto pulsante nel tuo cortile?",
+        "next": "3A"
+      },
+      {
+        "text": "Investigare l'area luminosa mostrata nella casa del tuo vicino?",
+        "next": "3B"
+      },
+      {
+        "text": "Usare la chiave per \"sbloccare\" la mappa olografica stessa, cercando più informazioni?",
+        "next": "3C"
+      }
+    ]
+  },
+  "1A": {
+    "text": "La bussola ti guida attraverso un paesaggio in continuo cambiamento. Gli alberi sussurrano antichi segreti e creature mitiche sbirciano da dietro il fogliame. Raggiungi una radura dove tre artefatti fluttuano a mezz'aria: un libro, una bacchetta e uno specchio.",
+    "choices": [
+      {
+        "text": "Afferrare il libro, sbloccando la conoscenza nascosta della foresta?",
+        "next": "end_1A_1"
+      },
+      {
+        "text": "Prendere la bacchetta, padroneggiando l'arte della magia naturale?",
+        "next": "end_1A_2"
+      },
+      {
+        "text": "Guardare nello specchio, scoprendo il tuo vero sé magico?",
+        "next": "end_1A_3"
+      }
+    ]
+  },
+  "end_1A_1": {
+    "text": "Afferri il libro e istantaneamente la conoscenza della foresta fluisce nella tua mente. Comprendi il linguaggio degli alberi, i canti degli uccelli e i sussurri del vento. Con questa saggezza, diventi un guardiano della natura, proteggendo il delicato equilibrio del regno magico.",
+    "choices": []
+  },
+  "end_1A_2": {
+    "text": "Mentre afferri la bacchetta, senti il pulsare della magia naturale scorrere nelle tue vene. Diventi un potente druido, capace di plasmare la foresta a tuo piacimento e comunicare con le sue creature. Il tuo viaggio è appena iniziato mentre esplori le profondità delle tue nuove abilità.",
+    "choices": []
+  },
+  "end_1A_3": {
+    "text": "Lo specchio rivela il tuo vero sé magico - un essere di pura energia, connesso all'essenza stessa della foresta. Trascendi la tua forma fisica, diventando tutt'uno con il regno magico. La tua coscienza si espande per abbracciare ogni foglia, ogni creatura e ogni sussurro di magia in questo mondo incantato.",
+    "choices": []
+  },
+  "1B": {
+    "text": "La tua voce echeggia attraverso la foresta, e presto senti delle risposte. Tre gruppi distinti emergono dagli alberi: una tribù di abitanti della foresta, una banda di viaggiatori perduti e un circolo di saggi mistici.",
+    "choices": [
+      {
+        "text": "Unirti agli abitanti della foresta, imparando a vivere in armonia con la natura?",
+        "next": "end_1B_1"
+      },
+      {
+        "text": "Accompagnare i viaggiatori, cercando un modo per tornare al mondo normale?",
+        "next": "end_1B_2"
+      },
+      {
+        "text": "Studiare con i saggi, svelando i segreti di questo regno magico?",
+        "next": "end_1B_3"
+      }
+    ]
+  },
+  "end_1B_1": {
+    "text": "Ti unisci agli abitanti della foresta, imparando i loro modi di vivere in armonia con la natura. Col tempo, sviluppi una profonda connessione con la flora e la fauna magiche. La tua nuova famiglia ti insegna antichi rituali e segreti della foresta. Diventi un membro rispettato della loro tribù, dedicando la tua vita a proteggere i boschi incantati e i suoi abitanti.",
+    "choices": []
+  },
+  "end_1B_2": {
+    "text": "Decidi di accompagnare i viaggiatori nella loro ricerca di un modo per tornare al mondo normale. Il vostro viaggio vi porta attraverso paesaggi mozzafiato e sfide pericolose. Lungo il cammino, forgi legami indistruttibili con i tuoi compagni. Quando finalmente scoprite un portale per casa, ti rendi conto che la vera magia risiede nelle amicizie che hai stretto e nelle esperienze che hai condiviso.",
+    "choices": []
+  },
+  "end_1B_3": {
+    "text": "Scegliendo di studiare con i saggi mistici, ti immergi nelle arti arcane. Gli anni passano mentre sveli i segreti di questo regno magico. La tua conoscenza e il tuo potere crescono oltre l'immaginazione. Alla fine, diventi tu stesso un rinomato saggio, guidando altri che si trovano persi tra i mondi e aiutandoli a scoprire il proprio potenziale magico.",
+    "choices": []
+  },
+  "1C": {
+    "text": "Mentre ti volti indietro, la foresta cambia. Ti ritrovi in un labirinto di ricordi, ogni sentiero mostra scorci del tuo passato. Appaiono tre porte, ognuna promette una via d'uscita ma a un costo.",
+    "choices": [
+      {
+        "text": "Scegliere la porta dell'oblio, tornando a casa ma perdendo ogni ricordo di questa avventura?",
+        "next": "end_1C_1"
+      },
+      {
+        "text": "Prendere la porta della trasformazione, mantenendo i tuoi ricordi ma cambiando permanentemente la tua percezione della realtà?",
+        "next": "end_1C_2"
+      },
+      {
+        "text": "Entrare nella porta dell'integrazione, fondendo la tua esperienza magica con la tua vita normale?",
+        "next": "end_1C_3"
+      }
+    ]
+  },
+  "end_1C_1": {
+    "text": "Attraversi la porta dell'oblio e ti svegli nel tuo letto, l'intera avventura apparentemente un sogno. La tua vita torna alla normalità, ma non riesci a scrollarti di dosso la sensazione che qualcosa di profondo sia andato perduto. Occasionalmente, il battito d'ali di una farfalla suscita un senso di déjà vu, accennando al viaggio magico nascosto nei recessi della tua mente.",
+    "choices": []
+  },
+  "end_1C_2": {
+    "text": "Scegliendo la porta della trasformazione, torni nel tuo mondo per sempre cambiato. La tua percezione della realtà è permanentemente alterata, permettendoti di vedere la magia nascosta nella vita quotidiana. Ti muovi tra il mondano e il magico, vivendo una doppia vita sia come persona ordinaria che come custode segreto della conoscenza incantata.",
+    "choices": []
+  },
+  "end_1C_3": {
+    "text": "Entri nella porta dell'integrazione, fondendo la tua esperienza magica con la tua vita normale. Il confine tra i due mondi si sfuma, e diventi un ponte tra i regni. La tua casa diventa un santuario per viaggiatori perduti ed esseri magici, mentre continui a esplorare le meraviglie di entrambi i mondi, per sempre arricchito dalla dualità della tua esistenza.",
+    "choices": []
+  },
+  "2A": {
+    "text": "Le farfalle ti depositano sul balcone di velo del castello. All'interno, trovi una grande sala da ballo dove il tempo scorre in modo diverso. Tre esseri eterei si avvicinano, ognuno offrendo un dono unico.",
+    "choices": [
+      {
+        "text": "Accettare l'Orologio dell'Eternità, permettendoti di manipolare il tempo?",
+        "next": "end_2A_1"
+      },
+      {
+        "text": "Accettare la Corona dei Sogni, concedendoti il potere di plasmare la realtà attraverso l'immaginazione?",
+        "next": "end_2A_2"
+      },
+      {
+        "text": "Accettare il Velo delle Dimensioni, permettendoti di viaggiare tra mondi paralleli?",
+        "next": "end_2A_3"
+      }
+    ]
+  },
+  "end_2A_1": {
+    "text": "Accettando l'Orologio dell'Eternità, senti il flusso del tempo piegarsi alla tua volontà. Ora puoi congelare momenti, viaggiare in diverse epoche e persino creare loop temporali. Con questo immenso potere viene una grande responsabilità, e ti dedichi a mantenere il delicato equilibrio del continuum temporale mentre esplori i misteri del passato, del presente e del futuro.",
+    "choices": []
+  },
+  "end_2A_2": {
+    "text": "La Corona dei Sogni si posa sulla tua fronte, e improvvisamente la tua immaginazione diventa realtà. Puoi rimodellare il mondo intorno a te con un semplice pensiero, creando meraviglie oltre ogni credenza. Mentre impari a controllare questo incredibile potere, diventi un maestro artigiano della realtà, usando i tuoi doni per portare gioia, bellezza e magia sia nel castello di nuvole che nel mondo sottostante.",
+    "choices": []
+  },
+  "end_2A_3": {
+    "text": "Indossando il Velo delle Dimensioni, acquisisci la capacità di muoverti tra mondi paralleli. Ogni realtà che visiti offre nuove meraviglie e sfide. Diventi un esploratore cosmico, mappando il multiverso e aiutando le anime perdute a trovare la via di casa. Le tue avventure sono infinite, poiché ci sono infiniti mondi da scoprire e innumerevoli versioni di te stesso da incontrare.",
+    "choices": []
+  },
+  "2B": {
+    "text": "L'albero ti dà il benvenuto telepaticamente, offrendosi di condividere la sua vasta conoscenza. Vieni a conoscenza di tre grandi missioni che potrebbero riportare l'equilibrio nel mondo.",
+    "choices": [
+      {
+        "text": "Intraprendere la missione per recuperare i semi perduti della creazione dal Vuoto?",
+        "next": "end_2B_1"
+      },
+      {
+        "text": "Intraprendere la missione per guarire la frattura tra i regni fisico e spirituale?",
+        "next": "end_2B_2"
+      },
+      {
+        "text": "Intraprendere la missione per risvegliare i guardiani dormienti della natura?",
+        "next": "end_2B_3"
+      }
+    ]
+  },
+  "end_2B_1": {
+    "text": "Intraprendi la pericolosa missione per recuperare i semi perduti della creazione dal Vuoto. Il tuo viaggio ti porta ai limiti dell'esistenza, dove affronti sfide inimmaginabili. Una volta riuscito, torni con il potere di far germogliare nuova vita e persino creare interi ecosistemi. Lavori al fianco del grande albero per rigenerare terre aride e dare inizio a una nuova era di abbondanza naturale.",
+    "choices": []
+  },
+  "end_2B_2": {
+    "text": "Accettando la missione di guarire la frattura tra i regni fisico e spirituale, diventi un ponte tra i mondi. La tua ricerca ti conduce attraverso piani sia materiali che eterei, affrontando prove che mettono alla prova il tuo corpo, la tua mente e la tua anima. Mentre ripari la divisione cosmica, acquisisci la capacità di comunicare con gli spiriti e portare armonia in entrambi i regni, inaugurando un'era di illuminazione spirituale senza precedenti.",
+    "choices": []
+  },
+  "end_2B_3": {
+    "text": "Accetti la sfida di risvegliare i guardiani dormienti della natura. La tua missione ti conduce a esseri antichi dormienti da millenni. Mentre risvegli ogni guardiano, assorbi una parte del loro potere primordiale e della loro saggezza. Completando la tua missione, ti unisci alle loro fila come nuovo guardiano, brandendo la potenza combinata della natura per proteggere il mondo da minacce sia magiche che mondane.",
+    "choices": []
+  },
+  "2C": {
+    "text": "Entri nel portale e ti ritrovi in un nexus di realtà. Tre versioni della tua città si estendono davanti a te, ognuna radicalmente diversa da quella che conosci.",
+    "choices": [
+      {
+        "text": "Entrare in un futuro utopico dove tecnologia e natura sono in perfetto equilibrio?",
+        "next": "end_2C_1"
+      },
+      {
+        "text": "Entrare in un presente alternativo dove la magia è sempre stata parte della vita quotidiana?",
+        "next": "end_2C_2"
+      },
+      {
+        "text": "Entrare in un passato ricostruito, permettendoti di intrecciare la magia nella storia?",
+        "next": "end_2C_3"
+      }
+    ]
+  },
+  "end_2C_1": {
+    "text": "Entrando nel futuro utopico, trovi un mondo dove tecnologia e natura coesistono in perfetta armonia. Ti adatti rapidamente a questa società avanzata, contribuendo con la tua prospettiva unica dal passato. La tua conoscenza di entrambi i mondi ti rende un ponte prezioso tra tradizione e innovazione, aiutando a garantire che questo delicato equilibrio sia mantenuto per le generazioni future.",
+    "choices": []
+  },
+  "end_2C_2": {
+    "text": "Scegli il presente alternativo dove la magia è parte integrante della vita quotidiana. La tua transizione è inizialmente difficile, ma presto prosperi in questa meravigliosa realtà. La tua fresca prospettiva sulla magia ti rende un innovatore ricercato nelle tecnologie magiche. Rivoluzioni il modo in cui la magia viene utilizzata nella società, lasciando un'impronta indelebile in questo mondo incantato.",
+    "choices": []
+  },
+  "end_2C_3": {
+    "text": "Optando per entrare nel passato ricostruito, ti ritrovi a un crocevia cruciale della storia. Armato della tua conoscenza del futuro e delle tue nuove abilità magiche, guidi sottilmente il corso degli eventi. Le tue azioni si propagano attraverso il tempo, creando una nuova linea temporale dove magia e tecnologia coesistono fin dall'inizio, plasmando un mondo che fonde armoniosamente il meglio di entrambi i regni.",
+    "choices": []
+  },
+  "3A": {
+    "text": "Nel tuo cortile, scopri un giardino nascosto di piante impossibili. Al centro si erge una fontana di luce stellare liquida, con tre ruscelli scintillanti.",
+    "choices": [
+      {
+        "text": "Bere dal Ruscello della Preveggenza, ottenendo la capacità di vedere possibili futuri?",
+        "next": "end_3A_1"
+      },
+      {
+        "text": "Bere dal Ruscello della Comunione, permettendoti di parlare con tutti gli esseri viventi?",
+        "next": "end_3A_2"
+      },
+      {
+        "text": "Bere dal Ruscello della Metamorfosi, consentendoti di mutare forma a volontà?",
+        "next": "end_3A_3"
+      }
+    ]
+  },
+  "end_3A_1": {
+    "text": "Bevendo dal Ruscello della Preveggenza, la tua mente si espande per percepire le innumerevoli possibilità del futuro. Vedi i sentieri ramificati dei potenziali esiti per ogni decisione. Questo dono ti permette di guidare gli altri verso futuri migliori, ma ti grava anche con la conoscenza dei sentieri non percorsi. Diventi un saggio oracolo, bilanciando attentamente la responsabilità delle tue visioni con il libero arbitrio di coloro che cercano il tuo consiglio.",
+    "choices": []
+  },
+  "end_3A_2": {
+    "text": "Mentre bevi dal Ruscello della Comunione, il mondo intorno a te si anima di voci. Piante, animali e persino la terra stessa condividono con te i loro pensieri e sentimenti. Diventi un traduttore tra le specie, promuovendo la comprensione e la cooperazione tra tutti gli esseri viventi. La tua abilità unica ti permette di sanare le fratture nella natura e creare un'armonia senza precedenti negli ecosistemi di tutto il mondo.",
+    "choices": []
+  },
+  "end_3A_3": {
+    "text": "Il Ruscello della Metamorfosi ti concede il potere del mutaforma. Puoi trasformarti in qualsiasi creatura, reale o immaginaria, a tuo piacimento. Questa incredibile abilità ti permette di sperimentare la vita da innumerevoli prospettive. Diventi un maestro di empatia e adattamento, usando il tuo dono per colmare le differenze tra culture e specie diverse, e per proteggere chi ne ha bisogno diventando ciò che ogni situazione richiede.",
+    "choices": []
+  },
+  "3B": {
+    "text": "Scopri che la casa del tuo vicino si è trasformata in un deposito di artefatti magici. Le farfalle ti guidano verso tre oggetti particolarmente potenti.",
+    "choices": [
+      {
+        "text": "Scegliere la Lente della Verità, rivelando la magia nascosta nel mondo quotidiano?",
+        "next": "end_3B_1"
+      },
+      {
+        "text": "Scegliere la Penna della Creazione, permettendoti di scrivere nuove realtà nell'esistenza?",
+        "next": "end_3B_2"
+      },
+      {
+        "text": "Scegliere il Mantello delle Culture, concedendoti la capacità di comprendere e integrarti in qualsiasi società?",
+        "next": "end_3B_3"
+      }
+    ]
+  },
+  "end_3B_1": {
+    "text": "Scegliendo la Lente della Verità, acquisisci la capacità di vedere la magia nascosta nel mondo di tutti i giorni. La tua percezione cambia, rivelando una realtà brulicante di meraviglie e incantesimi. Ti dedichi a documentare questi fenomeni magici, diventando un rinomato artista e studioso che aiuta gli altri ad apprezzare la natura straordinaria del mondo apparentemente ordinario che li circonda.",
+    "choices": []
+  },
+  "end_3B_2": {
+    "text": "Impugnando la Penna della Creazione, scopri il potere di scrivere nuove realtà nell'esistenza. Le tue parole hanno il potere di alterare il tessuto del mondo, creando nuove terre, esseri e persino leggi della natura. Con questo grande potere viene una grande responsabilità, e crei attentamente meraviglie che portano più magia e gioia nel mondo, diventando un leggendario autore le cui storie prendono letteralmente vita.",
+    "choices": []
+  },
+  "end_3B_3": {
+    "text": "Indossando il Mantello delle Culture, acquisisci la miracolosa capacità di comprendere e integrarti in qualsiasi società, umana o meno. Diventi un diplomatico universale, colmando le distanze tra culture, specie e persino dimensioni diverse. Il tuo viaggio ti porta negli angoli più remoti del mondo e oltre, mentre lavori instancabilmente per promuovere la comprensione e la pace oltre ogni confine.",
+    "choices": []
+  },
+  "3C": {
+    "text": "La mappa si espande in un modello tridimensionale dell'universo. Ti rendi conto di poter usare la chiave per sbloccare le forze fondamentali della realtà. Appaiono tre serrature cosmiche.",
+    "choices": [
+      {
+        "text": "Sbloccare le Leggi della Fisica, permettendoti di piegare la realtà a tuo piacimento?",
+        "next": "end_3C_1"
+      },
+      {
+        "text": "Sbloccare i Fili del Destino, consentendoti di riscrivere i destini?",
+        "next": "end_3C_2"
+      },
+      {
+        "text": "Sbloccare i Confini del Sé, fondendo la tua coscienza con l'universo?",
+        "next": "end_3C_3"
+      }
+    ]
+  },
+  "end_3C_1": {
+    "text": "Sbloccando le Leggi della Fisica, ottieni la capacità di piegare la realtà a tuo piacimento. Gravità, tempo e spazio diventano i tuoi giocattoli. Puoi creare dimensioni tascabili, alterare il flusso del tempo e rimodellare la materia con un pensiero. Mentre esplori i limiti dei tuoi poteri divini, ti confronti con la responsabilità di maneggiare forze così fondamentali, sforzandoti di usare le tue abilità per il bene di tutta l'esistenza.",
+    "choices": []
+  },
+  "end_3C_2": {
+    "text": "Sbloccando i Fili del Destino, acquisisci il potere di riscrivere i destini. Puoi vedere e alterare la rete interconnessa di cause ed effetti che plasma tutte le vite. Con questa profonda abilità viene il peso della responsabilità cosmica. Intrecci attentamente i fili del destino, lavorando dietro le quinte per guidare il mondo verso un futuro più luminoso, rispettando il delicato equilibrio tra libero arbitrio e predestinazione.",
+    "choices": []
+  },
+  "end_3C_3": {
+    "text": "Scegliendo di sbloccare i Confini del Sé, la tua coscienza si espande per fondersi con l'universo stesso. Diventi tutt'uno con tutta la creazione, sperimentando l'esistenza da ogni possibile prospettiva simultaneamente. In questo stato di unità cosmica, guidi l'evoluzione della realtà stessa, influenzando sottilmente il grande arazzo dell'esistenza verso una maggiore armonia e illuminazione per tutti gli esseri.",
+    "choices": []
+  }
+}

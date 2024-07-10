@@ -19,7 +19,7 @@ function loadStory(storyFile, preserveStage = false) {
                 visitedChoices = {};
                 discoveredEndings.clear();
             }
-            totalEndings = Object.keys(storyData).filter(key => key.startsWith('end')).length;
+            totalEndings = Object.keys(storyData).filter(key => key.startsWith('end_')).length;
             updateEndingsTracker();
             updateStory();
             updateVisualization();
@@ -27,9 +27,8 @@ function loadStory(storyFile, preserveStage = false) {
         .catch(error => console.error('Error loading story data:', error));
 }
 
-function getUniqueEndingKey(choice) {
-    const parts = choice.split('-');
-    return `end_${currentStage}_${parseInt(parts[1]) + 1}`;
+function getUniqueEndingKey(stage, choiceIndex) {
+    return `end_${stage}_${choiceIndex + 1}`;
 }
 
 function updateStory() {
@@ -62,8 +61,8 @@ function updateStory() {
             button.onclick = () => {
                 visitedChoices[choiceKey] = true;
                 storyHistory.push(currentStage);
-                if (choices[index].next === 'end') {
-                    currentStage = getUniqueEndingKey(choiceKey);
+                if (choices[index].next.startsWith('end_')) {
+                    currentStage = choices[index].next;
                     discoveredEndings.add(currentStage);
                     updateEndingsTracker();
                 } else {
@@ -77,7 +76,7 @@ function updateStory() {
         }
     });
 
-    if (currentStage.startsWith('end')) {
+    if (currentStage.startsWith('end_')) {
         showShareButtons();
     } else {
         hideShareButtons();
@@ -100,9 +99,49 @@ function goBack() {
 
 function setTheme(theme) {
     console.log('Setting theme:', theme);
-    document.body.className = '';
-    document.body.classList.add(theme + '-theme');
+    document.body.className = theme + '-theme';
     localStorage.setItem('theme', theme);
+
+    // Apply theme-specific styles
+    const root = document.documentElement;
+    switch (theme) {
+        case 'default':
+            root.style.setProperty('--main-bg-color', '#f0f0f0');
+            root.style.setProperty('--main-text-color', '#333');
+            root.style.setProperty('--button-bg-color', '#4CAF50');
+            root.style.setProperty('--button-text-color', 'white');
+            root.style.setProperty('--font-family', 'Arial, sans-serif');
+            break;
+        case 'dark':
+            root.style.setProperty('--main-bg-color', '#222');
+            root.style.setProperty('--main-text-color', '#e0e0e0');
+            root.style.setProperty('--button-bg-color', '#6a5acd');
+            root.style.setProperty('--button-text-color', 'white');
+            root.style.setProperty('--font-family', "'Roboto', sans-serif");
+            break;
+        case 'fantasy':
+            root.style.setProperty('--main-bg-color', '#f3e5ab');
+            root.style.setProperty('--main-text-color', '#4a2700');
+            root.style.setProperty('--button-bg-color', '#8b4513');
+            root.style.setProperty('--button-text-color', '#f3e5ab');
+            root.style.setProperty('--font-family', "'Cinzel', serif");
+            document.body.style.backgroundImage = "url('https://example.com/parchment-texture.jpg')";
+            break;
+        case 'psychedelic':
+            root.style.setProperty('--main-bg-color', '#ff00ff');
+            root.style.setProperty('--main-text-color', '#00ffff');
+            root.style.setProperty('--button-bg-color', '#ffff00');
+            root.style.setProperty('--button-text-color', '#ff00ff');
+            root.style.setProperty('--font-family', "'Monoton', cursive");
+            break;
+        case 'retrogaming':
+            root.style.setProperty('--main-bg-color', '#000000');
+            root.style.setProperty('--main-text-color', '#00ff00');
+            root.style.setProperty('--button-bg-color', '#808080');
+            root.style.setProperty('--button-text-color', '#00ff00');
+            root.style.setProperty('--font-family', "'Press Start 2P', cursive");
+            break;
+    }
 }
 
 function showShareButtons() {
@@ -176,12 +215,19 @@ function updateVisualization() {
     function createNode(stage, parent) {
         const node = document.createElement('li');
         const content = document.createElement('span');
-        content.textContent = stage;
-        if (stage === currentStage) {
+        
+        // Check if this is an ending node
+        if (stage === 'end' && currentStage.startsWith('end_')) {
+            content.textContent = currentStage; // Use the unique ending key
+        } else {
+            content.textContent = stage;
+        }
+        
+        if (stage === currentStage || (stage === 'end' && currentStage.startsWith('end_'))) {
             content.className = 'current';
         }
         node.appendChild(content);
-
+    
         if (storyData[stage] && storyData[stage].choices) {
             const childrenList = document.createElement('ul');
             storyData[stage].choices.forEach(choice => {
@@ -189,7 +235,7 @@ function updateVisualization() {
             });
             node.appendChild(childrenList);
         }
-
+    
         parent.appendChild(node);
     }
 
@@ -220,6 +266,60 @@ document.getElementById('font-size').addEventListener('input', function() {
     setFontSize(this.value);
 });
 
+function setTheme(theme) {
+    console.log('Setting theme:', theme);
+    document.body.className = theme + '-theme';
+    localStorage.setItem('theme', theme);
+
+    // Reset all custom styles
+    document.body.style = '';
+    document.documentElement.style = '';
+
+    // Apply theme-specific styles
+    const root = document.documentElement;
+    switch (theme) {
+        case 'default':
+            root.style.setProperty('--main-bg-color', '#f0f0f0');
+            root.style.setProperty('--main-text-color', '#333');
+            root.style.setProperty('--button-bg-color', '#4CAF50');
+            root.style.setProperty('--button-text-color', 'white');
+            root.style.setProperty('--font-family', 'Arial, sans-serif');
+            break;
+        case 'dark':
+            root.style.setProperty('--main-bg-color', '#222');
+            root.style.setProperty('--main-text-color', '#092e3a');
+            root.style.setProperty('--button-bg-color', '#6a5acd');
+            root.style.setProperty('--button-text-color', 'white');
+            root.style.setProperty('--font-family', "'Roboto', sans-serif");
+            break;
+        case 'fantasy':
+            root.style.setProperty('--main-bg-color', '#f3e5ab');
+            root.style.setProperty('--main-text-color', '#4a2700');
+            root.style.setProperty('--button-bg-color', '#8b4513');
+            root.style.setProperty('--button-text-color', '#f3e5ab');
+            root.style.setProperty('--font-family', "'Cinzel', serif");
+            document.body.style.backgroundImage = "url('https://example.com/parchment-texture.jpg')";
+            break;
+        case 'psychedelic':
+            root.style.setProperty('--main-bg-color', '#ff00ff');
+            root.style.setProperty('--main-text-color', '#0f4141');
+            root.style.setProperty('--button-bg-color', '#ffff00');
+            root.style.setProperty('--button-text-color', '#ff00ff');
+            root.style.setProperty('--font-family', "'Monoton', cursive");
+            break;
+        case 'retrogaming':
+            root.style.setProperty('--main-bg-color', '#000000');
+            root.style.setProperty('--main-text-color', '#00ff00');
+            root.style.setProperty('--button-bg-color', '#808080');
+            root.style.setProperty('--button-text-color', '#00ff00');
+            root.style.setProperty('--font-family', "'Press Start 2P', cursive");
+            break;
+    }
+
+    // Force a repaint to ensure all styles are applied correctly
+    document.body.offsetHeight;
+}
+
 // Initial setup
 const savedTheme = localStorage.getItem('theme') || 'default';
 setTheme(savedTheme);
@@ -234,3 +334,10 @@ loadStory('storyData_1');
 
 // Set initial font size
 setFontSize(16);
+
+// Make sure this event listener is at the end of your script.js file
+document.addEventListener('DOMContentLoaded', (event) => {
+    const savedTheme = localStorage.getItem('theme') || 'default';
+    setTheme(savedTheme);
+    document.getElementById('theme-choice').value = savedTheme;
+});

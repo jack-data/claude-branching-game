@@ -1,0 +1,331 @@
+{
+  "start": {
+    "text": "Sie erwachen und finden Ihr Schlafzimmer voller Schmetterlinge. Ihre schillernden Flügel malen die Luft mit schimmernden Farben und verwandeln den vertrauten Raum in ein surreales Wunderland. Als Sie sich verwirrt aufrichten, bemerken Sie einen kleinen, kunstvoll verzierten Schlüssel auf Ihrem Nachttisch. Er war nicht da, als Sie eingeschlafen sind.\n\nDie Schmetterlinge scheinen auf Ihre Bewegung zu reagieren und wirbeln in einem faszinierenden Tanz um Sie herum. Sie können das Gefühl nicht abschütteln, dass sie versuchen, Ihnen etwas Wichtiges mitzuteilen. Der Schlüssel in Ihrer Hand wird warm, und Sie spüren, dass er mit diesem seltsamen Phänomen verbunden ist.\n\nAußerhalb Ihres Fensters sieht die Welt normal aus, aber Sie wissen, dass das Verlassen dieses Zimmers alles verändern wird. Sie atmen tief durch und wägen Ihre Möglichkeiten ab.",
+    "choices": [
+      {
+        "text": "Den Schlüssel benutzen, um Ihre Schlafzimmertür zu öffnen und die wartende Magie zu umarmen?",
+        "next": "1"
+      },
+      {
+        "text": "Das Fenster öffnen und den Schmetterlingen erlauben, Sie auf eine Luftreise zu führen?",
+        "next": "2"
+      },
+      {
+        "text": "Den Schlüssel genauer untersuchen und nach Hinweisen auf seinen Ursprung und Zweck suchen?",
+        "next": "3"
+      }
+    ]
+  },
+  "1": {
+    "text": "Sie stecken den Schlüssel ins Schloss, und er dreht sich mit einem leisen Klicken. Als Sie die Tür öffnen, strömen die Schmetterlinge an Ihnen vorbei in den Flur, der sich in einen üppigen Waldpfad verwandelt hat. Die Wände Ihres Hauses sind verschwunden, ersetzt durch hohe Bäume und geflecktes Sonnenlicht. Der Schlüssel in Ihrer Hand verwandelt sich in einen leuchtenden Kompass, dessen Nadel wild kreist, bevor sie sich auf eine Richtung tiefer in den Wald festlegt. Sie machen einen zögerlichen Schritt vorwärts, Blätter rascheln unter Ihren nackten Füßen.",
+    "choices": [
+      {
+        "text": "Dem Kompass tiefer in den geheimnisvollen Wald folgen?",
+        "next": "1A"
+      },
+      {
+        "text": "Rufen, in der Hoffnung, andere Menschen in dieser seltsamen neuen Welt zu finden?",
+        "next": "1B"
+      },
+      {
+        "text": "Versuchen, Ihre Schritte zurückzuverfolgen und in Ihr Schlafzimmer zurückzukehren?",
+        "next": "1C"
+      }
+    ]
+  },
+  "2": {
+    "text": "Als Sie das Fenster entriegeln, schwärmen die Schmetterlinge um Sie herum, ihre Flügel streifen Ihre Haut. Zu Ihrem Erstaunen beginnen Sie zu schweben, getragen von ihrer kollektiven Anstrengung. Sie tragen Sie hinaus in die offene Luft, hoch über Ihre Nachbarschaft. Die Welt unter Ihnen scheint zu schimmern und sich zu verändern, vertraute Landmarken verschmelzen mit fantastischen Strukturen. In der Ferne erkennen Sie drei verschiedene Orte, jeder pulsierend vor magischer Energie.",
+    "choices": [
+      {
+        "text": "Die Schmetterlinge anweisen, Sie zu einem schwebenden Schloss aus kristallinen Wolken zu bringen?",
+        "next": "2A"
+      },
+      {
+        "text": "Die Schmetterlinge bitten, Sie zu einem riesigen, empfindungsfähigen Baum zu bringen, dessen Äste bis in die Stratosphäre reichen?",
+        "next": "2B"
+      },
+      {
+        "text": "Die Schmetterlinge lenken, um Sie zu einem schimmernden Portal zu bringen, das über dem Stadtzentrum schwebt?",
+        "next": "2C"
+      }
+    ]
+  },
+  "3": {
+    "text": "Sie betrachten den Schlüssel genau und bemerken komplizierte Gravuren auf seiner Oberfläche. Als Sie sie mit dem Finger nachfahren, beginnt der Schlüssel zu leuchten und projiziert eine holografische Karte an die Wand Ihres Schlafzimmers. Die Karte zeigt Ihr Haus im Zentrum, mit drei pulsierenden Interessenpunkten in der Nähe. Die Schmetterlinge in Ihrem Zimmer ordnen sich zu pfeilförmigen Formationen, die auf jeden Ort zeigen.",
+    "choices": [
+      {
+        "text": "Der Führung der Schmetterlinge zum pulsierenden Punkt in Ihrem Hinterhof folgen?",
+        "next": "3A"
+      },
+      {
+        "text": "Den leuchtenden Bereich im Haus Ihres Nachbarn untersuchen?",
+        "next": "3B"
+      },
+      {
+        "text": "Den Schlüssel benutzen, um die holografische Karte selbst zu 'entsperren' und nach mehr Informationen suchen?",
+        "next": "3C"
+      }
+    ]
+  },
+  "1A": {
+    "text": "Der Kompass führt Sie durch eine sich ständig verändernde Landschaft. Bäume flüstern uralte Geheimnisse, und mythische Kreaturen spähen hinter dem Laub hervor. Sie erreichen eine Lichtung, wo drei Artefakte in der Luft schweben: ein Buch, ein Zauberstab und ein Spiegel.",
+    "choices": [
+      {
+        "text": "Das Buch ergreifen und das verborgene Wissen des Waldes entschlüsseln?",
+        "next": "end_1A_1"
+      },
+      {
+        "text": "Den Zauberstab nehmen und die Kunst der Naturmagie meistern?",
+        "next": "end_1A_2"
+      },
+      {
+        "text": "In den Spiegel blicken und Ihr wahres magisches Selbst entdecken?",
+        "next": "end_1A_3"
+      }
+    ]
+  },
+  "end_1A_1": {
+    "text": "Sie greifen nach dem Buch, und augenblicklich fließt das Wissen des Waldes in Ihren Geist. Sie verstehen die Sprache der Bäume, die Lieder der Vögel und das Flüstern des Windes. Mit dieser Weisheit werden Sie zu einem Hüter der Natur und schützen das empfindliche Gleichgewicht des magischen Reiches.",
+    "choices": []
+  },
+  "end_1A_2": {
+    "text": "Als Sie den Zauberstab ergreifen, spüren Sie den Puls der Naturmagie durch Ihre Adern fließen. Sie werden zu einem mächtigen Druiden, fähig, den Wald nach Belieben zu formen und mit seinen Kreaturen zu kommunizieren. Ihre Reise hat gerade erst begonnen, während Sie die Tiefen Ihrer neuen Fähigkeiten erforschen.",
+    "choices": []
+  },
+  "end_1A_3": {
+    "text": "Der Spiegel offenbart Ihr wahres magisches Selbst - ein Wesen aus reiner Energie, verbunden mit der Essenz des Waldes selbst. Sie transzendieren Ihre physische Form und werden eins mit dem magischen Reich. Ihr Bewusstsein erweitert sich und umfasst jedes Blatt, jedes Geschöpf und jedes Flüstern von Magie in dieser verzauberten Welt.",
+    "choices": []
+  },
+  "1B": {
+    "text": "Ihre Stimme hallt durch den Wald, und bald hören Sie Antworten. Drei unterschiedliche Gruppen tauchen aus den Bäumen auf: ein Stamm von Waldbewohnern, eine Gruppe verirrter Reisender und ein Kreis mystischer Weiser.",
+    "choices": [
+      {
+        "text": "Sich den Waldbewohnern anschließen und lernen, im Einklang mit der Natur zu leben?",
+        "next": "end_1B_1"
+      },
+      {
+        "text": "Die Reisenden begleiten und nach einem Weg zurück in die normale Welt suchen?",
+        "next": "end_1B_2"
+      },
+      {
+        "text": "Mit den Weisen studieren und die Geheimnisse dieses magischen Reiches entschlüsseln?",
+        "next": "end_1B_3"
+      }
+    ]
+  },
+  "end_1B_1": {
+    "text": "Sie schließen sich den Waldbewohnern an und lernen ihre Art, im Einklang mit der Natur zu leben. Mit der Zeit entwickeln Sie eine tiefe Verbindung zur magischen Flora und Fauna. Ihre neue Familie lehrt Sie uralte Rituale und Geheimnisse des Waldes. Sie werden zu einem respektierten Mitglied ihres Stammes und widmen Ihr Leben dem Schutz der verzauberten Wälder und ihrer Bewohner.",
+    "choices": []
+  },
+  "end_1B_2": {
+    "text": "Sie entscheiden sich, die Reisenden auf ihrer Suche nach einem Weg zurück in die normale Welt zu begleiten. Ihre Reise führt Sie durch atemberaubende Landschaften und gefährliche Herausforderungen. Unterwegs schmieden Sie unzerbrechliche Bande mit Ihren Gefährten. Als Sie schließlich ein Portal nach Hause entdecken, erkennen Sie, dass die wahre Magie in den Freundschaften liegt, die Sie geschlossen haben, und in den Erfahrungen, die Sie geteilt haben.",
+    "choices": []
+  },
+  "end_1B_3": {
+    "text": "Sie entscheiden sich, mit den mystischen Weisen zu studieren und tauchen in die arkanen Künste ein. Jahre vergehen, während Sie die Geheimnisse dieses magischen Reiches enträtseln. Ihr Wissen und Ihre Macht wachsen über die Vorstellungskraft hinaus. Schließlich werden Sie selbst zu einem renommierten Weisen, der andere führt, die sich zwischen den Welten verirrt haben, und ihnen hilft, ihr eigenes magisches Potenzial zu entdecken.",
+    "choices": []
+  },
+  "1C": {
+    "text": "Als Sie sich umdrehen, verändert sich der Wald. Sie finden sich in einem Labyrinth der Erinnerungen wieder, jeder Pfad zeigt Einblicke in Ihre Vergangenheit. Drei Türen erscheinen, jede verspricht einen Ausweg, aber zu einem Preis.",
+    "choices": [
+      {
+        "text": "Die Tür des Vergessens wählen, nach Hause zurückkehren, aber alle Erinnerungen an dieses Abenteuer verlieren?",
+        "next": "end_1C_1"
+      },
+      {
+        "text": "Die Tür der Verwandlung nehmen, Ihre Erinnerungen behalten, aber Ihre Wahrnehmung der Realität für immer verändern?",
+        "next": "end_1C_2"
+      },
+      {
+        "text": "Durch die Tür der Integration gehen und Ihre magische Erfahrung mit Ihrem normalen Leben verschmelzen?",
+        "next": "end_1C_3"
+      }
+    ]
+  },
+  "end_1C_1": {
+    "text": "Sie durchschreiten die Tür des Vergessens und wachen in Ihrem Bett auf, das gesamte Abenteuer scheint nur ein Traum gewesen zu sein. Ihr Leben kehrt zur Normalität zurück, aber Sie können das Gefühl nicht abschütteln, dass etwas Tiefgreifendes verloren gegangen ist. Gelegentlich weckt das Flattern eines Schmetterlingsflügels ein Gefühl von Déjà-vu und deutet auf die magische Reise hin, die in den Tiefen Ihres Geistes verborgen liegt.",
+    "choices": []
+  },
+  "end_1C_2": {
+    "text": "Indem Sie die Tür der Verwandlung wählen, kehren Sie für immer verändert in Ihre Welt zurück. Ihre Wahrnehmung der Realität ist dauerhaft verändert und ermöglicht es Ihnen, die versteckte Magie im Alltag zu sehen. Sie navigieren zwischen dem Gewöhnlichen und dem Magischen und führen ein Doppelleben als normale Person und geheimer Hüter verzauberten Wissens.",
+    "choices": []
+  },
+  "end_1C_3": {
+    "text": "Sie betreten die Tür der Integration und verschmelzen Ihre magische Erfahrung mit Ihrem normalen Leben. Die Grenze zwischen den beiden Welten verschwimmt, und Sie werden zu einer Brücke zwischen den Reichen. Ihr Zuhause wird zu einem Zufluchtsort für verirrte Reisende und magische Wesen, während Sie weiterhin die Wunder beider Welten erkunden, für immer bereichert durch die Dualität Ihrer Existenz.",
+    "choices": []
+  },
+  "2A": {
+    "text": "Die Schmetterlinge setzen Sie auf dem nebelhaften Balkon des Schlosses ab. Im Inneren finden Sie einen großen Ballsaal, in dem die Zeit anders fließt. Drei ätherische Wesen nähern sich, jedes bietet ein einzigartiges Geschenk an.",
+    "choices": [
+      {
+        "text": "Die Uhr der Ewigkeit annehmen, die es Ihnen erlaubt, die Zeit zu manipulieren?",
+        "next": "end_2A_1"
+      },
+      {
+        "text": "Die Krone der Träume akzeptieren, die Ihnen die Macht verleiht, die Realität durch Vorstellungskraft zu formen?",
+        "next": "end_2A_2"
+      },
+      {
+        "text": "Den Schleier der Dimensionen annehmen, der es Ihnen ermöglicht, zwischen Parallelwelten zu reisen?",
+        "next": "end_2A_3"
+      }
+    ]
+  },
+  "end_2A_1": {
+    "text": "Als Sie die Uhr der Ewigkeit annehmen, spüren Sie, wie der Fluss der Zeit sich Ihrem Willen beugt. Sie können nun Momente einfrieren, durch verschiedene Epochen reisen und sogar Zeitschleifen erschaffen. Mit dieser immensen Macht kommt große Verantwortung, und Sie widmen sich der Aufrechterhaltung des empfindlichen Gleichgewichts des Zeitkontinuums, während Sie die Geheimnisse von Vergangenheit, Gegenwart und Zukunft erforschen.",
+    "choices": []
+  },
+  "end_2A_2": {
+    "text": "Die Krone der Träume setzt sich auf Ihre Stirn, und plötzlich wird Ihre Vorstellungskraft zur Realität. Sie können die Welt um Sie herum allein durch Gedanken umgestalten und Wunder erschaffen, die jenseits aller Vorstellungskraft liegen. Während Sie lernen, diese unglaubliche Kraft zu kontrollieren, werden Sie zu einem Meister der Realitätsgestaltung und nutzen Ihre Gaben, um sowohl dem Wolkenschloss als auch der Welt darunter Freude, Schönheit und Magie zu bringen.",
+    "choices": []
+  },
+  "end_2A_3": {
+    "text": "Indem Sie den Schleier der Dimensionen anlegen, erlangen Sie die Fähigkeit, zwischen Parallelwelten zu wandeln. Jede Realität, die Sie besuchen, bietet neue Wunder und Herausforderungen. Sie werden zu einem kosmischen Entdecker, der das Multiversum kartografiert und verlorenen Seelen hilft, ihren Weg nach Hause zu finden. Ihre Abenteuer sind endlos, da es unendlich viele Welten zu entdecken und unzählige Versionen von Ihnen selbst zu treffen gibt.",
+    "choices": []
+  },
+  "2B": {
+    "text": "Der Baum begrüßt Sie telepathisch und bietet an, sein umfangreiches Wissen zu teilen. Sie erfahren von drei großen Questen, die das Gleichgewicht der Welt wiederherstellen könnten.",
+    "choices": [
+      {
+        "text": "Die Quest antreten, um die verlorenen Samen der Schöpfung aus der Leere zu bergen?",
+        "next": "end_2B_1"
+      },
+      {
+        "text": "Sich auf die Quest begeben, um den Riss zwischen der physischen und der geistigen Welt zu heilen?",
+        "next": "end_2B_2"
+      },
+      {
+        "text": "Die Quest beginnen, um die schlafenden Wächter der Natur zu erwecken?",
+        "next": "end_2B_3"
+      }
+    ]
+  },
+  "end_2B_1": {
+    "text": "Sie begeben sich auf die gefährliche Quest, um die verlorenen Samen der Schöpfung aus der Leere zu bergen. Ihre Reise führt Sie an den Rand der Existenz, wo Sie unvorstellbaren Herausforderungen gegenüberstehen. Nach Ihrem Erfolg kehren Sie mit der Macht zurück, neues Leben zu erschaffen und sogar ganze Ökosysteme zu erschaffen. Sie arbeiten Seite an Seite mit dem großen Baum, um öde Landstriche wiederzubeleben und eine neue Ära natürlichen Überflusses einzuläuten.",
+    "choices": []
+  },
+  "end_2B_2": {
+    "text": "Indem Sie die Mission annehmen, den Riss zwischen der physischen und der geistigen Welt zu heilen, werden Sie zur Brücke zwischen den Welten. Ihre Quest führt Sie durch materielle und ätherische Ebenen und stellt Sie vor Prüfungen, die Ihren Körper, Geist und Ihre Seele auf die Probe stellen. Während Sie die kosmische Kluft überbrücken, erlangen Sie die Fähigkeit, mit Geistern zu kommunizieren und Harmonie in beide Reiche zu bringen, was eine Ära beispielloser spiritueller Erleuchtung einläutet.",
+    "choices": []
+  },
+  "end_2B_3": {
+    "text": "Sie nehmen die Herausforderung an, die schlafenden Wächter der Natur zu erwecken. Ihre Quest führt Sie zu uralten Wesen, die seit Jahrtausenden schlummern. Während Sie jeden Wächter erwecken, absorbieren Sie einen Teil ihrer Urkraft und Weisheit. Nach Abschluss Ihrer Mission treten Sie ihren Reihen als neuer Wächter bei und nutzen die vereinte Macht der Natur, um die Welt vor magischen und weltlichen Bedrohungen zu schützen.",
+    "choices": []
+  },
+  "2C": {
+    "text": "Sie betreten das Portal und finden sich in einem Nexus der Realitäten wieder. Drei Versionen Ihrer Stadt liegen vor Ihnen, jede radikal anders als die, die Sie kennen.",
+    "choices": [
+      {
+        "text": "In eine utopische Zukunft eintreten, in der Technologie und Natur in perfekter Balance sind?",
+        "next": "end_2C_1"
+      },
+      {
+        "text": "In eine alternative Gegenwart treten, in der Magie schon immer Teil des täglichen Lebens war?",
+        "next": "end_2C_2"
+      },
+      {
+        "text": "In eine rekonstruierte Vergangenheit treten, die es Ihnen ermöglicht, Magie in die Geschichte einzuweben?",
+        "next": "end_2C_3"
+      }
+    ]
+  },
+  "end_2C_1": {
+    "text": "Sie treten in die utopische Zukunft ein und finden eine Welt vor, in der Technologie und Natur in perfekter Harmonie existieren. Sie passen sich schnell dieser fortschrittlichen Gesellschaft an und tragen Ihre einzigartige Perspektive aus der Vergangenheit bei. Ihr Wissen aus beiden Welten macht Sie zu einer unschätzbaren Brücke zwischen Tradition und Innovation und hilft dabei, dieses empfindliche Gleichgewicht für kommende Generationen zu bewahren.",
+    "choices": []
+  },
+  "end_2C_2": {
+    "text": "Sie wählen die alternative Gegenwart, in der Magie ein integraler Bestandteil des täglichen Lebens ist. Ihr Übergang ist zunächst herausfordernd, aber bald gedeihen Sie in dieser wundersamen Realität. Ihre frische Perspektive auf Magie macht Sie zu einem gefragten Innovator in magischen Technologien. Sie revolutionieren die Art und Weise, wie Magie in der Gesellschaft eingesetzt wird, und hinterlassen einen unauslöschlichen Eindruck in dieser verzauberten Welt.",
+    "choices": []
+  },
+  "end_2C_3": {
+    "text": "Sie entscheiden sich, in die rekonstruierte Vergangenheit einzutreten und finden sich an einem entscheidenden Wendepunkt der Geschichte wieder. Bewaffnet mit Ihrem Wissen über die Zukunft und Ihren neu entdeckten magischen Fähigkeiten, lenken Sie subtil den Lauf der Ereignisse. Ihre Handlungen breiten sich wellenartig durch die Zeit aus und erschaffen eine neue Zeitlinie, in der Magie und Technologie von Anfang an koexistieren und eine Welt formen, die das Beste beider Bereiche harmonisch vereint.",
+    "choices": []
+  },
+  "3A": {
+    "text": "In Ihrem Hinterhof entdecken Sie einen verborgenen Garten mit unmöglichen Pflanzen. In seiner Mitte steht ein Brunnen aus flüssigem Sternenlicht mit drei schimmernden Strömen.",
+    "choices": [
+      {
+        "text": "Aus dem Strom der Voraussicht trinken und die Fähigkeit erlangen, mögliche Zukünfte zu sehen?",
+        "next": "end_3A_1"
+      },
+      {
+        "text": "Aus dem Strom der Kommunion trinken und die Fähigkeit erlangen, mit allen Lebewesen zu sprechen?",
+        "next": "end_3A_2"
+      },
+      {
+        "text": "Aus dem Strom der Metamorphose trinken und die Fähigkeit erlangen, sich nach Belieben zu verwandeln?",
+        "next": "end_3A_3"
+      }
+    ]
+  },
+  "end_3A_1": {
+    "text": "Als Sie aus dem Strom der Voraussicht trinken, erweitert sich Ihr Geist, um die unzähligen Möglichkeiten der Zukunft wahrzunehmen. Sie sehen verzweigte Pfade potenzieller Ergebnisse für jede Entscheidung. Diese Gabe ermöglicht es Ihnen, andere zu besseren Zukünften zu führen, belastet Sie aber auch mit dem Wissen um nicht beschrittene Wege. Sie werden zu einem weisen Orakel, das sorgfältig die Verantwortung Ihrer Visionen mit dem freien Willen derer abwägt, die Ihren Rat suchen.",
+    "choices": []
+  },
+  "end_3A_2": {
+    "text": "Als Sie aus dem Strom der Kommunion trinken, erwacht die Welt um Sie herum zum Leben mit Stimmen. Pflanzen, Tiere und sogar die Erde selbst teilen ihre Gedanken und Gefühle mit Ihnen. Sie werden zu einem Übersetzer zwischen den Arten und fördern Verständnis und Zusammenarbeit zwischen allen Lebewesen. Ihre einzigartige Fähigkeit ermöglicht es Ihnen, Risse in der Natur zu heilen und eine beispiellose Harmonie in Ökosystemen auf der ganzen Welt zu schaffen.",
+    "choices": []
+  },
+  "end_3A_3": {
+    "text": "Der Strom der Metamorphose verleiht Ihnen die Kraft der Gestaltwandlung. Sie können sich nach Belieben in jedes Geschöpf, real oder imaginär, verwandeln. Diese unglaubliche Fähigkeit ermöglicht es Ihnen, das Leben aus unzähligen Perspektiven zu erleben. Sie werden zu einem Meister der Empathie und Anpassung und nutzen Ihre Gabe, um Brücken zwischen verschiedenen Kulturen und Arten zu schlagen und diejenigen zu schützen, die in Not sind, indem Sie zu dem werden, was jede Situation erfordert.",
+    "choices": []
+  },
+  "3B": {
+    "text": "Sie finden das Haus Ihres Nachbarn in ein Lager magischer Artefakte verwandelt. Die Schmetterlinge führen Sie zu drei besonders mächtigen Gegenständen.",
+    "choices": [
+      {
+        "text": "Die Linse der Wahrheit wählen, die die verborgene Magie in der Alltagswelt offenbart?",
+        "next": "end_3B_1"
+      },
+      {
+        "text": "Die Feder der Schöpfung wählen, mit der Sie neue Realitäten erschreiben können?",
+        "next": "end_3B_2"
+      },
+      {
+        "text": "Den Mantel der Kulturen wählen, der Ihnen die Fähigkeit verleiht, jede Gesellschaft zu verstehen und sich in sie einzufügen?",
+        "next": "end_3B_3"
+      }
+    ]
+  },
+  "end_3B_1": {
+    "text": "Indem Sie die Linse der Wahrheit wählen, erlangen Sie die Fähigkeit, die verborgene Magie in der Alltagswelt zu sehen. Ihre Wahrnehmung verändert sich und offenbart eine Realität voller Wunder und Verzauberung. Sie widmen sich der Dokumentation dieser magischen Phänomene und werden zu einem renommierten Künstler und Gelehrten, der anderen hilft, die außergewöhnliche Natur der scheinbar gewöhnlichen Welt um sie herum zu schätzen.",
+    "choices": []
+  },
+  "end_3B_2": {
+    "text": "Mit der Feder der Schöpfung entdecken Sie die Macht, neue Realitäten in die Existenz zu schreiben. Ihre Worte haben die Kraft, das Gefüge der Welt zu verändern, neue Länder, Wesen und sogar Naturgesetze zu erschaffen. Mit dieser großen Macht kommt große Verantwortung, und Sie erschaffen sorgfältig Wunder, die mehr Magie und Freude in die Welt bringen. Sie werden zu einem legendären Autor, dessen Geschichten buchstäblich zum Leben erwachen.",
+    "choices": []
+  },
+  "end_3B_3": {
+    "text": "Indem Sie den Mantel der Kulturen anlegen, erlangen Sie die wundersame Fähigkeit, jede Gesellschaft zu verstehen und sich in sie einzufügen, sei sie menschlich oder anderweitig. Sie werden zu einem universellen Diplomaten, der Brücken zwischen verschiedenen Kulturen, Arten und sogar Dimensionen schlägt. Ihre Reise führt Sie in die entlegensten Winkel der Welt und darüber hinaus, während Sie unermüdlich daran arbeiten, Verständnis und Frieden über alle Grenzen hinweg zu fördern.",
+    "choices": []
+  },
+  "3C": {
+    "text": "Die Karte erweitert sich zu einem dreidimensionalen Modell des Universums. Sie erkennen, dass Sie den Schlüssel benutzen können, um fundamentale Kräfte der Realität zu entfesseln. Drei kosmische Schlösser erscheinen.",
+    "choices": [
+      {
+        "text": "Die Gesetze der Physik entsperren und die Realität nach Belieben biegen?",
+        "next": "end_3C_1"
+      },
+      {
+        "text": "Die Fäden des Schicksals entfesseln und die Macht erlangen, Schicksale umzuschreiben?",
+        "next": "end_3C_2"
+      },
+      {
+        "text": "Die Grenzen des Selbst öffnen und Ihr Bewusstsein mit dem Universum verschmelzen?",
+        "next": "end_3C_3"
+      }
+    ]
+  },
+  "end_3C_1": {
+    "text": "Indem Sie die Gesetze der Physik entsperren, erlangen Sie die Fähigkeit, die Realität nach Belieben zu biegen. Schwerkraft, Zeit und Raum werden zu Ihren Spielzeugen. Sie können Taschendimensionen erschaffen, den Zeitfluss verändern und Materie allein durch Gedanken umformen. Während Sie die Grenzen Ihrer gottgleichen Kräfte erforschen, ringen Sie mit der Verantwortung, solch fundamentale Kräfte zu handhaben, und bemühen sich, Ihre Fähigkeiten zum Wohle der gesamten Existenz einzusetzen.",
+    "choices": []
+  },
+  "end_3C_2": {
+    "text": "Durch das Entfesseln der Fäden des Schicksals gewinnen Sie die Macht, Schicksale umzuschreiben. Sie können das verwobene Netz von Ursache und Wirkung sehen und verändern, das alle Leben formt. Mit dieser tiefgreifenden Fähigkeit kommt die Last kosmischer Verantwortung. Sie weben sorgfältig die Fäden des Schicksals und arbeiten im Hintergrund daran, die Welt in eine hellere Zukunft zu führen, während Sie das empfindliche Gleichgewicht zwischen freiem Willen und Vorbestimmung respektieren.",
+    "choices": []
+  },
+  "end_3C_3": {
+    "text": "Indem Sie sich entscheiden, die Grenzen des Selbst zu öffnen, erweitert sich Ihr Bewusstsein und verschmilzt mit dem Universum selbst. Sie werden eins mit der gesamten Schöpfung und erleben die Existenz aus allen möglichen Perspektiven gleichzeitig. In diesem Zustand kosmischer Einheit lenken Sie die Evolution der Realität selbst und beeinflussen subtil den großen Wandteppich der Existenz in Richtung größerer Harmonie und Erleuchtung für alle Wesen.",
+    "choices": []
+  }
+}

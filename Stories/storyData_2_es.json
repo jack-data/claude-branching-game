@@ -1,0 +1,331 @@
+{
+  "start": {
+    "text": "Llegas al trabajo y descubres que tu oficina ha sido reemplazada por un acuario gigante. Tus compañeros nadan en traje formal, usando medusas como portátiles. Tu jefe, ahora un pulpo parlante, te saluda con un tentáculo expectante. En tu escritorio, que ahora es un arrecife de coral, ves tres objetos:",
+    "choices": [
+      {
+        "text": "¿Te pones el snorkel y te sumerges para unirte a tus colegas acuáticos?",
+        "next": "1"
+      },
+      {
+        "text": "¿Contestas el teléfono de concha que de repente está sonando?",
+        "next": "2"
+      },
+      {
+        "text": "¿Abres el archivador incrustado de percebes?",
+        "next": "3"
+      }
+    ]
+  },
+  "1": {
+    "text": "Te pones el snorkel y te sumerges en la oficina-acuario. Tu ropa se transforma instantáneamente en un elegante traje de negocios hecho de escamas de pez. Tu jefe pulpo te felicita por tu rápida adaptación y te asigna uno de tres proyectos urgentes:",
+    "choices": [
+      {
+        "text": "¿Negociar una fusión con una empresa rival de pepinos de mar sentientes?",
+        "next": "1A"
+      },
+      {
+        "text": "¿Desarrollar una estrategia de marketing para grapadoras submarinas?",
+        "next": "1B"
+      },
+      {
+        "text": "¿Realizar una evaluación de desempeño para el tiburón residente de la oficina?",
+        "next": "1C"
+      }
+    ]
+  },
+  "2": {
+    "text": "Contestas la concha y una voz hecha de burbujas te informa que has ganado un viaje de negocios con todos los gastos pagados. Se te instruye elegir tu destino inmediatamente:",
+    "choices": [
+      {
+        "text": "¿El centro de retiros corporativos premium del Triángulo de las Bermudas?",
+        "next": "2A"
+      },
+      {
+        "text": "¿El primer parque de oficinas de gravedad cero en la Luna?",
+        "next": "2B"
+      },
+      {
+        "text": "¿Un seminario de viaje en el tiempo en el distrito empresarial de la Antigua Roma?",
+        "next": "2C"
+      }
+    ]
+  },
+  "3": {
+    "text": "Abres el archivador incrustado de percebes, liberando una nube de purpurina y memorandos corporativos de los años 80. Emerge un genio que afirma ser el espíritu de la gerencia media. Te ofrece concederte uno de tres deseos:",
+    "choices": [
+      {
+        "text": "¿La habilidad de fotosintetizar tu propio café?",
+        "next": "3A"
+      },
+      {
+        "text": "¿Una grapadora que puede unir el tejido de la realidad?",
+        "next": "3B"
+      },
+      {
+        "text": "¿El poder de comunicarte exclusivamente en jerga corporativa?",
+        "next": "3C"
+      }
+    ]
+  },
+  "1A": {
+    "text": "Nadas hacia el arrecife de negociaciones para reunirte con los ejecutivos pepino de mar. Insisten en comunicarse a través de danza interpretativa. Debes elegir tu estrategia de negociación:",
+    "choices": [
+      {
+        "text": "¿Realizar un tango submarino para proponer los términos de la fusión?",
+        "next": "end_1A_1"
+      },
+      {
+        "text": "¿Sugerir una competencia de baile para determinar la cuota de mercado?",
+        "next": "end_1A_2"
+      },
+      {
+        "text": "¿Contratar una compañía de caballitos de mar como traductores?",
+        "next": "end_1A_3"
+      }
+    ]
+  },
+  "end_1A_1": {
+    "text": "Tu tango submarino impresiona a los ejecutivos pepino de mar con su gracia y precisión. Aceptan la fusión, y te conviertes en el 'Negociador Bailarín de las Profundidades'. Tu innovadora técnica de negociación revoluciona las prácticas empresariales submarinas, llevando a una nueva era de comunicación corporativa rítmica. Te ascienden a Director de Coreografía, responsable de todas las futuras adquisiciones acuáticas.",
+    "choices": []
+  },
+  "end_1A_2": {
+    "text": "La competencia de baile se convierte en la comidilla del mundo empresarial submarino. Tu deslizamiento de anguila eléctrica asegura una cuota de mercado del 60%, pero la sorprendentemente ágil conga de los pepinos de mar se lleva algunos activos clave. La empresa resultante, 'Pepino Jive S.A.', domina el fondo marino con su única mezcla de agudeza empresarial y experiencia en baile. Te nombran Vicepresidente de Crecimientos Groovy, supervisando un equipo de contadores convertidos en bailarines.",
+    "choices": []
+  },
+  "end_1A_3": {
+    "text": "Los traductores caballito de mar resultan ser una genialidad. Sus elegantes movimientos capturan perfectamente los matices de las propuestas de ambas partes. Las negociaciones son tan exitosas que creas una nueva industria: traducción interpretativa de negocios submarinos. Tu empresa, 'Soluciones Semáforo Caballito de Mar', se convierte en la referencia para todas las comunicaciones corporativas entre especies. Te jubilas anticipadamente, pasando tus días coreografiando intrincados ballets de negocios para empresas acuáticas.",
+    "choices": []
+  },
+  "1B": {
+    "text": "Haces una lluvia de ideas con un banco de peces idea para desarrollar la campaña de la grapadora submarina. Tu equipo propone tres puntos de venta únicos:",
+    "choices": [
+      {
+        "text": "\"¡Grapa documentos y sella sándwiches submarinos!\"",
+        "next": "end_1B_1"
+      },
+      {
+        "text": "\"¡Se dobla como mini-arpón para defensa contra tiburones de oficina!\"",
+        "next": "end_1B_2"
+      },
+      {
+        "text": "\"¡Funciona con energía renovable de algas!\"",
+        "next": "end_1B_3"
+      }
+    ]
+  },
+  "end_1B_1": {
+    "text": "Tu grapadora de doble propósito se convierte en una sensación de la noche a la mañana. Tanto los trabajadores de oficina como los chefs de aguas profundas claman por este revolucionario dispositivo. Has creado un nuevo mercado para equipos de oficina-culinarios submarinos. Tu éxito lleva a una línea de productos híbridos, incluyendo la 'Freidora de Fax' y la 'Prensa de Panini Fotocopiadora'. Te aclaman como el 'Thomas Edison del Océano', revolucionando tanto la eficiencia de oficina como la cocina submarina.",
+    "choices": []
+  },
+  "end_1B_2": {
+    "text": "La grapadora de defensa contra tiburones se convierte en equipo obligatorio en cada oficina submarina. Las estadísticas de seguridad laboral mejoran drásticamente, y te otorgan el prestigioso 'Premio Aleta Dorada a la Innovación Empresarial'. Sin embargo, el repentino desempleo de los tiburones de oficina lleva a la formación de T.I.B.U.R.O.N.E.S. (Trabajadores Injuriados por Büro-Utensilios Rescatadores Oceánicos Necesitando Empleo Solidario). Pasas tu carrera equilibrando entre la innovación de productos y programas de alcance para tiburones, convirtiéndote en una figura líder en responsabilidad social corporativa submarina.",
+    "choices": []
+  },
+  "end_1B_3": {
+    "text": "Tu grapadora alimentada por algas desencadena una revolución ecológica en suministros de oficina submarinos. El 'Movimiento Marea Verde' arrasa el paisaje corporativo oceánico, con tu grapadora liderando la carga. Te conviertes en la cara de las prácticas empresariales submarinas sostenibles, dando charlas TED (Temas Ecológicos Delfínicos) y asesorando a grandes corporaciones acuáticas. Tu invención eventualmente lleva a ciudades submarinas enteras alimentadas por algas, y te inmortalizan como el 'Cruzado de las Algas' en el Salón de la Fama Acuático.",
+    "choices": []
+  },
+  "1C": {
+    "text": "Te acercas al tiburón de la oficina para su evaluación de desempeño. Parece nervioso y te ofrece tres formas de realizar la evaluación:",
+    "choices": [
+      {
+        "text": "¿Un amistoso juego de charadas submarinas?",
+        "next": "end_1C_1"
+      },
+      {
+        "text": "¿Una inversión de roles donde tú actúas como un tiburón y él actúa como tú?",
+        "next": "end_1C_2"
+      },
+      {
+        "text": "¿Una rutina de natación sincronizada mostrando sus habilidades?",
+        "next": "end_1C_3"
+      }
+    ]
+  },
+  "end_1C_1": {
+    "text": "La sesión de charadas submarinas revela el increíble talento del tiburón para la comunicación no verbal. Sus gestos aleta-sticos y formaciones de anillos de burbujas transmiten complejas estrategias de negocios con asombrosa claridad. Impresionado, no solo le das al tiburón una evaluación brillante, sino que también creas un nuevo departamento de 'Estrategia Silenciosa', con el tiburón como su jefe. Este revolucionario enfoque de comunicación empresarial submarina causa olas en toda la industria, y tu empresa se vuelve conocida por sus inquietantemente efectivas reuniones silenciosas.",
+    "choices": []
+  },
+  "end_1C_2": {
+    "text": "El ejercicio de inversión de roles lleva a un profundo avance en la comprensión entre especies. Mientras te pones una aleta de tiburón improvisada y el tiburón sostiene torpemente un bolígrafo, ambos obtienen valiosas perspectivas sobre el punto de vista del otro. Esta experiencia te inspira a implementar un programa en toda la empresa llamado 'Nada en Sus Aletas', promoviendo la empatía y el entendimiento entre todas las especies acuáticas. Tu innovador enfoque hacia la diversidad en el lugar de trabajo te convierte en un orador solicitado en eventos corporativos submarinos, y tu oficina se vuelve un modelo de colaboración entre especies.",
+    "choices": []
+  },
+  "end_1C_3": {
+    "text": "La rutina de natación sincronizada del tiburón es una revelación. Sus movimientos graciosos y su sincronización impecable muestran no solo destreza física, sino también creatividad, trabajo en equipo y atención al detalle. Inspirado, reestructuras todo el sistema de evaluación de desempeño alrededor del 'Arte Acuático', donde los empleados demuestran sus habilidades a través de elaborados ballets acuáticos. Este enfoque único aumenta la moral, mejora el rendimiento y convierte tus revisiones trimestrales en eventos imperdibles. Tu empresa se vuelve famosa por sus espectaculares 'Locuras Acuáticas Fiscales', atrayendo el mejor talento de los siete mares.",
+    "choices": []
+  },
+  "2A": {
+    "text": "Llegas al retiro corporativo del Triángulo de las Bermudas. Los ejercicios de formación de equipos son diferentes a todo lo que has visto:",
+    "choices": [
+      {
+        "text": "¿Participar en el desafío \"Encuentra tu Camino de Vuelta desde una Dimensión Paralela\"?",
+        "next": "end_2A_1"
+      },
+      {
+        "text": "¿Unirte al taller \"Sinergiza con tus Yos Pasados y Futuros\"?",
+        "next": "end_2A_2"
+      },
+      {
+        "text": "¿Asistir al seminario \"Aprovechando la Energía de los Agujeros de Gusano para la Productividad\"?",
+        "next": "end_2A_3"
+      }
+    ]
+  },
+  "end_2A_1": {
+    "text": "El desafío de la dimensión paralela toma un giro inesperado cuando descubres una realidad donde las presentaciones de PowerPoint son ilegales y todos los negocios se realizan a través de danza interpretativa. Te conviertes en el enlace entre dimensiones, enseñando a tus colegas el arte de los pitch-piruetas y el presupuesto-ballet. Tus habilidades interdimensionales únicas te vuelven indispensable, y te ascienden a 'Director de Realidad', responsable de navegar la empresa a través del multiverso de oportunidades de negocio.",
+    "choices": []
+  },
+  "end_2A_2": {
+    "text": "Sinergizar con tus yos pasados y futuros lleva a un paradójico aumento de productividad. Formas 'Yo, Mí Mismo y S.A.', una firma consultora donde colaboras continuamente con tus variantes temporales. Tu yo pasado maneja la entrada de datos, tu yo presente gestiona las relaciones con los clientes, y tu yo futuro proporciona previsión estratégica. Este modelo de negocio que dobla el tiempo revoluciona la industria, aunque hace que programar los descansos para almorzar sea bastante complicado.",
+    "choices": []
+  },
+  "end_2A_3": {
+    "text": "El seminario de energía de agujeros de gusano abre tus ojos al potencial sin explotar de las anomalías espacio-temporales en el lugar de trabajo. Pioneras los 'Miércoles de Agujero de Gusano', donde los empleados pueden deslizarse a través de atajos temporales para extender plazos o asistir a reuniones en el pasado. Tu uso innovador de fenómenos cósmicos catapulta a tu empresa a la vanguardia del sector espacio-tiempo. Sin embargo, las constantes travesuras temporales causan estragos en el departamento de nóminas, llevando a la creación de una nueva división de 'Contabilidad Cuántica'.",
+    "choices": []
+  },
+  "2B": {
+    "text": "Flotas hacia el parque de oficinas de gravedad cero de la Luna. El paquete de orientación ofrece tres puestos iniciales:",
+    "choices": [
+      {
+        "text": "¿Artesano de Latté Lunar: Crear capuchinos que desafían la física?",
+        "next": "end_2B_1"
+      },
+      {
+        "text": "¿Operador de Pozo Gravitatorio: Asegurar que los colegas no floten durante las reuniones?",
+        "next": "end_2B_2"
+      },
+      {
+        "text": "¿Sincronizador de Selenita: Alinear la productividad de la oficina con las fases lunares?",
+        "next": "end_2B_3"
+      }
+    ]
+  },
+  "end_2B_1": {
+    "text": "Tus capuchinos de gravedad cero se convierten en la comidilla del sistema solar. Tu firma 'Lunaccino', con espolvoreado de polvo lunar y espuma de leche esculpida en perfectas réplicas de cráteres lunares, gana el Campeonato Galáctico de Baristas. La NASA te encarga desarrollar el 'Brebaje Cósmico', un café que puede alimentar tanto a astronautas como a naves espaciales. Tu café, 'Un Pequeño Sorbo', se convierte en parada obligatoria para todos los viajeros de negocios interplanetarios, haciéndote el barista más influyente del universo conocido.",
+    "choices": []
+  },
+  "end_2B_2": {
+    "text": "Tu papel como Operador de Pozo Gravitatorio transforma las prácticas empresariales lunares. Desarrollas el revolucionario método 'Amarre y Pizarra', manteniendo a los ejecutivos anclados mientras permites presentaciones dinámicas tridimensionales. Tu innovación lleva a la creación de 'Pozos Gravitatorios, S.A.', especializada en soluciones gravitacionales a medida para oficinas de gravedad cero en toda la galaxia. Te apodan el 'Ancla de la Innovación' y te conviertes en un gurú del lugar de trabajo sin peso, escribiendo el best-seller 'Cómo Ganar Amigos e Influenciar a la Gente en Gravedad Cero'.",
+    "choices": []
+  },
+  "end_2B_3": {
+    "text": "Como Sincronizador de Selenita, descubres una conexión asombrosa entre las fases lunares y las tendencias del mercado. Tu 'Matriz de Productividad Lunar' se convierte en la piedra angular de una nueva filosofía de gestión. Empresas en la Tierra y la Luna reestructuran sus años fiscales para alinearse con el calendario lunar, y términos como 'Networking de Luna Nueva' y 'Lluvia de Ideas de Luna Llena' entran en el léxico corporativo. Te aclaman como un visionario, dividiendo tu tiempo entre charlas TED en la Tierra y retiros de liderazgo lunar, enseñando a los ejecutivos a aprovechar el poder de la sinergia lunar.",
+    "choices": []
+  },
+  "2C": {
+    "text": "Te materializas en el distrito empresarial de la Antigua Roma. Tu seminario de viaje en el tiempo se centra en modernizar la cultura corporativa romana. Se te pide liderar una sesión de trabajo:",
+    "choices": [
+      {
+        "text": "¿\"Cuadriga Compartida: Compartir Vehículo para el Centurión Moderno\"?",
+        "next": "end_2C_1"
+      },
+      {
+        "text": "¿\"Formación de Equipos Gladiatorial: Del Arena a la Sala de Juntas\"?",
+        "next": "end_2C_2"
+      },
+      {
+        "text": "¿\"De Togas a Trajes a Medida: Evolucionando el Código de Vestimenta de la Oficina\"?",
+        "next": "end_2C_3"
+      }
+    ]
+  },
+  "end_2C_1": {
+    "text": "Tu iniciativa 'Cuadriga Compartida' es un éxito rotundo. Las carreteras romanas pronto se llenan de cuadrigas multi-caballo llevando a pasajeros vestidos con togas. Se te otorga una corona de laurel por reducir la congestión del tráfico romano en un 75%. El emperador, impresionado por tu innovación, te nombra 'Magister Vehiculorum' (Maestro de Vehículos). Tus ideas se extienden por todo el imperio, culminando en la creación de la 'Via Pool-ia', una red de estaciones de cuadrigas compartidas que revoluciona el transporte urbano antiguo.",
+    "choices": []
+  },
+  "end_2C_2": {
+    "text": "Tus talleres de 'Formación de Equipos Gladiatorial' toman Roma por tormenta. Las rivalidades corporativas ahora se resuelven en el Coliseo con espadas de espuma y camisetas de equipo. Las revisiones trimestrales se convierten en espectáculos épicos, con empleados de bajo rendimiento enfrentándose a leones entrenados por RR.HH. (que en realidad son solo becarios en disfraces). Tu empresa, 'Et Tu, Brute Force S.L.', se convierte en la principal agencia de formación corporativa del imperio. Te retiras invicto como el 'Cónsul del Combate Corporativo', con una villa con vistas a los Jardines Gladiatoriales de Crecimiento y Desarrollo.",
+    "choices": []
+  },
+  "end_2C_3": {
+    "text": "Tu reforma de la moda sacude los cimientos de la sociedad romana. Las togas son ahora el atuendo de los viernes casuales, mientras que los trajes de poder se convierten en la norma. Introduces políticas de sandalias casuales y 'Centurión Casual' para la gerencia media. El mismo emperador adopta tu línea 'Ejecutivo Imperial', completa con rayas púrpuras. Tu casa de moda, 'VII-XI a.C.', se convierte en el árbitro del estilo corporativo en todo el imperio. Se te otorga el título de 'Arbiter Elegantiae' (Juez de la Elegancia) y pasas tus días diseñando ropa de negocios lista para la batalla para aspirantes a emprendedores romanos.",
+    "choices": []
+  },
+  "3A": {
+    "text": "Ganas la habilidad de fotosintetizar café. Tu productividad se dispara, pero hay efectos secundarios inesperados:",
+    "choices": [
+      {
+        "text": "Tu cabello se convierte en granos de café. ¿Convertirte en el nuevo barista favorito de la oficina?",
+        "next": "end_3A_1"
+      },
+      {
+        "text": "Empiezas a atraer abejas. ¿Cambiar a una carrera en producción de miel artesanal?",
+        "next": "end_3A_2"
+      },
+      {
+        "text": "No puedes dejar de vibrar. ¿Asumir un nuevo trabajo como silla de masajes humana?",
+        "next": "end_3A_3"
+      }
+    ]
+  },
+  "end_3A_1": {
+    "text": "Abrazando tu nuevo cabello de granos de café, te conviertes en el barista más popular de la oficina. Tu café elaborado en la cabeza es aclamado como el más aromático y sabroso del mundo corporativo. Lanzas una cadena de cafeterías llamada 'Brebaje Craneal', donde los clientes pueden ver cómo crece su café y se cosecha en tiempo real. Tu éxito lleva a una revolución en la industria del café, con competidores luchando por desarrollar sus propios métodos de producción de café en partes del cuerpo. Te retiras como un magnate de la cafeína, tu cabello eternamente percolando con ideas para nuevas mezclas.",
+    "choices": []
+  },
+  "end_3A_2": {
+    "text": "Las abejas atraídas por tu cuerpo productor de café se convierten en tus nuevas socias comerciales. Creas 'Empresas Zumbido', una compañía especializada en productos de miel infusionados con café. Tu 'Crema de Moca Melíflua' se convierte en una sensación para el desayuno, y tu 'Gel para el Cabello de Avellana Melada' toma la industria de la belleza por asalto. Pronto te conocen como la 'Abeja Reina de los Cruces Corporativos', con tu oficina funcionando como una colmena de innovación. Tus reuniones anuales de accionistas, celebradas en una flor artificial gigante, siempre están zumbando de emoción.",
+    "choices": []
+  },
+  "end_3A_3": {
+    "text": "Tu vibración constante te lleva a un cambio de carrera inesperado. Te conviertes en 'El Percolador Humano', una revolucionaria silla de masajes que prepara café mientras proporciona relajación. Spas de lujo y oficinas de alto estrés por igual claman por tus servicios. Te franquicias, entrenando a un ejército de masajistas infundidos de café. Tu marca, 'Temblores y Tragos', se vuelve sinónimo de relajación cafeinada. Eventualmente asciendes a un plano superior de existencia, convirtiéndote en un ser de pura cafeína y buenas vibras, bendiciendo a los trabajadores estresados con tu aura energizante.",
+    "choices": []
+  },
+  "3B": {
+    "text": "Tu nueva grapadora unificadora de realidades llega. Recursos Humanos te llama para discutir su uso apropiado:",
+    "choices": [
+      {
+        "text": "¿Fusionar la sala de fotocopias con una tierra mágica para ahorrar en costos de papel?",
+        "next": "end_3B_1"
+      },
+      {
+        "text": "¿Grapar el lunes al viernes, creando un fin de semana perpetuo de tres días?",
+        "next": "end_3B_2"
+      },
+      {
+        "text": "¿Unir tu evaluación de desempeño a un universo paralelo donde eres el Empleado del Siglo?",
+        "next": "end_3B_3"
+      }
+    ]
+  },
+  "end_3B_1": {
+    "text": "Tu fusión de la sala de fotocopias con la tierra mágica es un éxito rotundo. Los empleados ahora retozan con faunos mientras hacen copias, y el Señor Tumnus es nombrado jefe del departamento de 'Recursos Interdimensionales'. Los costos de papel se desploman ya que los informes ahora se escriben en hojas mágicas. Sin embargo, incursiones ocasionales de la Bruja Blanca requieren que instituyas un nuevo protocolo de 'Se Acerca el Invierno' para la copia de seguridad de datos. Te ascienden a 'Guardián del Reino Corporativo', responsable de mantener el delicado equilibrio entre productividad y fantasía.",
+    "choices": []
+  },
+  "end_3B_2": {
+    "text": "Tu grapado del lunes al viernes crea una paradoja temporal que resulta en un fin de semana perpetuo de tres días. La productividad inicialmente se dispara debido al perpetuo 'sentimiento de viernes', pero pronto el concepto de 'lunes' se convierte en una leyenda distante. Se te encarga crear un nuevo sistema de calendario basado en el estado de ánimo en lugar de días. Tu 'Vibrolendar' se convierte en el nuevo estándar global, con personas planificando reuniones para 'las Energéticas en punto del día de Motivación'. Te aclaman como un crono-revolucionario y pasas tu eterno fin de semana explorando las ahora infinitas posibilidades del equilibrio trabajo-vida.",
+    "choices": []
+  },
+  "end_3B_3": {
+    "text": "Unir tu evaluación de desempeño a un universo paralelo donde eres el Empleado del Siglo tiene consecuencias inesperadas. Los logros de tu yo alternativo comienzan a filtrarse en la realidad, estableciendo estándares imposibles. Pronto, estás gestionando simultáneamente proyectos a través de múltiples dimensiones, llevando a un nuevo campo de 'productividad cuántica'. Tu habilidad para aprovechar las sinergias interdimensionales te hace indispensable, y te ascienden a 'Director de Operaciones Multiversales'. Sin embargo, llevar un registro de los logros de tus diversos yos requiere contratar a tu yo de otro universo como tu asistente personal.",
+    "choices": []
+  },
+  "3C": {
+    "text": "Ahora hablas solo en jerga corporativa. Tus colegas reaccionan de varias maneras:",
+    "choices": [
+      {
+        "text": "¿Te ascienden a CEO porque nadie te entiende, pero todos están impresionados?",
+        "next": "end_3C_1"
+      },
+      {
+        "text": "¿Te conviertes en el traductor oficial de la oficina para visitantes alienígenas?",
+        "next": "end_3C_2"
+      },
+      {
+        "text": "¿Accidentalmente invocas al dios anciano de la burocracia con tus encantamientos?",
+        "next": "end_3C_3"
+      }
+    ]
+  },
+  "end_3C_1": {
+    "text": "Tu incomprensible dominio de la jerga te catapulta al puesto de CEO. Las reuniones de la junta se convierten en una sinfonía de sinergia, cambios de paradigma y pensamiento innovador. El precio de las acciones de la empresa se dispara ya que los inversores quedan deslumbrados por tu habilidad para no decir nada sustancial con la máxima confianza. Publicas un libro best-seller, 'Apalanca tu Léxico: Disrumpiendo las Dinámicas del Diálogo', que consiste enteramente en jerga corporativa generada aleatoriamente. Te retiras a una isla privada, donde pasas tus días creando jerga corporativa cada vez más absurda y viendo cómo el mundo empresarial se esfuerza por descifrar tu sabiduría.",
+    "choices": []
+  },
+  "end_3C_2": {
+    "text": "Tu dominio de la jerga te convierte en el traductor perfecto para visitantes extraterrestres. Resulta que los idiomas alienígenas están compuestos enteramente de frases vagas pero impresionantes. Te conviertes en el embajador de la Tierra ante las estrellas, negociando acuerdos comerciales intergalácticos con una hábil mezcla de 'propuestas de valor sinérgicas' y 'estrategias de penetración de mercado interdimensional'. Tu traductor universal, 'El Jargonauta', se convierte en equipo estándar para todas las misiones espaciales. Eventualmente te casas con un príncipe Zorkblaxiano, unidos por vuestro amor mutuo por la comunicación sin sentido pero importante.",
+    "choices": []
+  },
+  "end_3C_3": {
+    "text": "Tu incesante flujo de jerga corporativa accidentalmente invoca a Burocrathos, el dios anciano de la burocracia y la gerencia media. La oficina se sumerge en un reino de pesadilla de formularios interminables, menús telefónicos imposibles de navegar y reuniones que literalmente nunca terminan. Te nombran gran visir de Burocrathos, encargado de difundir la ineficiencia por todo el cosmos. Tu nueva tarjeta de presentación es un holograma en constante cambio que requiere tres firmas y un notario para leerla. Pasas la eternidad en un paraíso de procesos perpetuos, donde 'correo rápido' es una paradoja y cada decisión requiere un comité.",
+    "choices": []
+  }
+}

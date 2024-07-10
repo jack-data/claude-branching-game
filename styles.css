@@ -1,18 +1,24 @@
-
 :root {
   --base-font-size: 16px;
   --story-font-size: 19.2px;
+  --main-bg-color: #f0f0f0;
+  --main-text-color: #333;
+  --button-bg-color: #4CAF50;
+  --button-text-color: white;
+  --font-family: Arial, sans-serif;
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: var(--font-family);
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   font-size: var(--base-font-size);
+  transition: all 0.5s ease;
 }
 
 header {
@@ -29,6 +35,18 @@ header {
 
 .selector {
   margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.selector label {
+  margin-bottom: 5px;
+}
+
+.large-select {
+  padding: 5px;
+  font-size: 14px;
+  width: 200px;
 }
 
 main {
@@ -70,8 +88,8 @@ main {
 button {
   margin: 5px 0;
   padding: 10px;
-  background-color: #4CAF50;
-  color: white;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -130,73 +148,111 @@ button.visited:hover {
   margin-right: 10px;
 }
 
+/* Theme-specific styles */
+.default-theme {
+  --main-bg-color: #f0f0f0;
+  --main-text-color: #333;
+  --button-bg-color: #4CAF50;
+  --button-text-color: white;
+  --font-family: Arial, sans-serif;
+}
+
+.dark-theme {
+  --main-bg-color: #222;
+  --main-text-color: #092e3a;
+  --button-bg-color: #6a5acd;
+  --button-text-color: white;
+  --font-family: 'Roboto', sans-serif;
+}
+
+.fantasy-theme {
+  --main-bg-color: #f3e5ab;
+  --main-text-color: #4a2700;
+  --button-bg-color: #8b4513;
+  --button-text-color: #f3e5ab;
+  --font-family: 'Cinzel', serif;
+  background-image: url('https://example.com/parchment-texture.jpg');
+  background-repeat: repeat;
+}
+
+.psychedelic-theme {
+  --main-bg-color: #ff00ff;
+  --main-text-color: #0f4141;
+  --button-bg-color: #ffff00;
+  --button-text-color: #ff00ff;
+  --font-family: 'Monoton', cursive;
+  animation: psychedelic-bg 10s linear infinite;
+}
+
+@keyframes psychedelic-bg {
+  0% { background-color: #ff00ff; }
+  33% { background-color: #00ffff; }
+  66% { background-color: #ffff00; }
+  100% { background-color: #ff00ff; }
+}
+
+.retrogaming-theme {
+  --main-bg-color: #000000;
+  --main-text-color: #00ff00;
+  --button-bg-color: #808080;
+  --button-text-color: #00ff00;
+  --font-family: 'Press Start 2P', cursive;
+  text-shadow: 2px 2px #00ff00;
+}
+
+.retrogaming-theme #story-text {
+  line-height: 1.8;
+}
+
+.retrogaming-theme {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.retrogaming-theme .header-controls {
+  flex-direction: row;
+}
+
+.retrogaming-theme .selector {
+  flex-direction: column;
+}
+
 /* Story visualization tree */
+#story-visualization {
+  overflow-x: auto;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .tree {
-  display: flex;
+  display: inline-flex;
+  justify-content: flex-start;
+  padding: 20px;
+  min-width: 100%;
 }
 
 .tree ul {
-  padding-top: 20px;
-  position: relative;
-  transition: all 0.5s;
+  display: flex;
+  padding: 0;
+  margin: 0;
   list-style-type: none;
-  padding-left: 20px;
 }
 
 .tree li {
-  float: left;
-  text-align: center;
-  list-style-type: none;
-  position: relative;
-  padding: 20px 5px 0 5px;
-  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  min-width: 100px; /* Ensure minimum width for each node */
 }
 
-.tree li::before, .tree li::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 50%;
-  border-top: 1px solid #ccc;
-  width: 50%;
-  height: 20px;
+.tree li > span {
+  margin-bottom: 20px;
 }
 
-.tree li::after {
-  right: auto;
-  left: 50%;
-  border-left: 1px solid #ccc;
-}
-
-.tree li:only-child::after, .tree li:only-child::before {
-  display: none;
-}
-
-.tree li:only-child {
-  padding-top: 0;
-}
-
-.tree li:first-child::before, .tree li:last-child::after {
-  border: 0 none;
-}
-
-.tree li:last-child::before {
-  border-right: 1px solid #ccc;
-  border-radius: 0 5px 0 0;
-}
-
-.tree li:first-child::after {
-  border-radius: 5px 0 0 0;
-}
-
-.tree ul ul::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  border-left: 1px solid #ccc;
-  width: 0;
-  height: 20px;
+.tree ul ul {
+  flex-direction: row;
+  justify-content: center;
 }
 
 .tree li span {
@@ -208,22 +264,54 @@ button.visited:hover {
   display: inline-block;
   border-radius: 5px;
   transition: all 0.5s;
+  position: relative;
+  white-space: nowrap;
 }
 
-.tree li span:hover, .tree li span:hover+ul li span {
+.tree li > span::before,
+.tree li > span::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-left: 1px solid #ccc;
+  width: 0;
+  height: 20px;
+}
+
+.tree li > ul::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  border-left: 1px solid #ccc;
+  width: 0;
+  height: 20px;
+}
+
+.tree li > ul {
+  position: relative;
+}
+
+.tree li > ul::after {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  right: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.tree li span:hover,
+.tree li span:hover + ul li span,
+.tree li span[id^="end"]:hover {
   background: #c8e4f8;
   color: #000;
   border: 1px solid #94a0b4;
 }
 
-.tree li span:hover+ul li::after,
-.tree li span:hover+ul li::before,
-.tree li span:hover+ul::before,
-.tree li span:hover+ul ul::before {
-  border-color: #94a0b4;
-}
-
-.tree .current {
+.tree .current,
+.tree span[id^="end"].current {
   background-color: #ffff99;
   font-weight: bold;
 }
@@ -231,24 +319,15 @@ button.visited:hover {
 /* Responsive design */
 @media (max-width: 768px) {
   .header-controls {
-      flex-direction: column;
+    flex-direction: column;
   }
   
   .selector {
-      width: 100%;
-      margin: 5px 0;
+    width: 100%;
+    margin: 5px 0;
   }
   
   .large-select {
-      width: 100%;
-  }
-  
-  #controls {
-      flex-direction: column;
-  }
-  
-  #font-size-control {
-      margin-left: 0;
-      margin-top: 10px;
+    width: 100%;
   }
 }
