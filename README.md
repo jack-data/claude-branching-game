@@ -14,6 +14,3 @@ In order to view the app:
 - Reaching an ending has buttons for sharing on Twitter/Facebook.
 - Buttons to Save/Load progress.
 
-# Thanks to Claude!
-This project would not have been possible without Claude 3.5 Sonnet. All of the code, JSON stories and translation was done by Claude. The entire project was completed in my free time in just under a week.
-
